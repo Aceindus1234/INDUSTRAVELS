@@ -1,0 +1,248 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Travelinnermaster.master.cs" Inherits="Travelinnermaster" %>
+
+<%@ Register Src="~/industravels/new/User Control/travelleftmenu.ascx" TagName="left" TagPrefix="traveleleft" %>
+<%@ Register Src="~/industravels/new/User Control/travelright.ascx" TagName="right" TagPrefix="travelright" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>::Indus Travels::</title>
+<link href="style.css" rel="stylesheet" />
+<link href="style1.css" rel="stylesheet" />
+<link href="css/style.css" type="text/css" rel="stylesheet" /><link href="css/tab.css" type="text/css" rel="stylesheet" /><link rel="stylesheet" href="css/page.css" media="screen" /><link rel="stylesheet" href="css/theme-metallic.css" /><link href="css/menu.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.current {
+	border-top:4px solid #ff3100;
+	height:21px;
+	margin-top:-10px;
+	/*width:50px;*/
+	line-height:28px;
+	/*padding-top:6px;*/
+	
+}
+</style>
+    <!-- menu -->
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <!-- slider -->
+    <link rel="stylesheet" type="text/css" href="css/nivo-slider.css" />
+    <!-- slider -->
+    <link href="css/lightbox.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/bookflip.js"></script>
+    <link rel="stylesheet" href="css/roundedw.css" /><link href="css/style-notification.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+    <script language="JavaScript1.1">
+<!--
+
+/*
+JavaScript Image slideshow:
+By JavaScript Kit (www.javascriptkit.com)
+Over 200+ free JavaScript here!
+*/
+
+var slideimages=new Array()
+var slidelinks=new Array()
+function slideshowimages(){
+for (i=0;i<slideshowimages.arguments.length;i++){
+slideimages[i]=new Image()
+slideimages[i].src=slideshowimages.arguments[i]
+}
+}
+
+function slideshowlinks(){
+for (i=0;i<slideshowlinks.arguments.length;i++)
+slidelinks[i]=slideshowlinks.arguments[i]
+}
+
+function gotoshow(){
+if (!window.winslide||winslide.closed)
+winslide=window.open(slidelinks[whichlink])
+else
+winslide.location=slidelinks[whichlink]
+winslide.focus()
+}
+
+//-->
+    </script>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body >
+    <form id="form1" runat="server">
+
+    
+<div id="wrapperclass">
+<div class="logo" >
+<div class="inner">
+<p style="color:#c40909; font-family:'Segoe UI'; font-size:16px;  margin-top:0px; font-weight:bold; margin-left:1025px; width:207px;">USA : 703-574-3278</p>
+<p style="color:#c40909; font-family:'Segoe UI'; font-size:16px;  margin-top:0px; font-weight:bold; margin-left:996px; width:212px;">IND : +91 406-673-6226</p>
+</div><!--inner-->
+</div><!--logo-->
+<!--<div class="curent">
+<img src="images/new/1.jpg" />
+</div>-->
+<div class="menu">
+<ul>
+<li ><a href="Default.aspx">HOME</a></li>   
+<li  id="li1" runat="server"  style=""><a href="Company.aspx">COMPANY </a></li>    
+<li id="li2" runat="server"><a href="Careers.aspx">CAREERS </a></li>      
+<li id="li3" runat="server"><a href="Product.aspx">PRODUCTS & SERVICES</a></li>       
+<li id="li4" runat="server"><a href="Curises.aspx">CRUISES </a></li>      
+<li id="li5" runat="server"><a href="Maps.aspx">MAPS </a></li>      
+<li id="li6" runat="server"><a href="Special.aspx">SPECIAL OFFERS</a></li>     
+<li id="li7" runat="server"><a href="Airfare.aspx">AIRFARE QUOTE</a></li> 	
+<li id="li8" runat="server"><a href="Forms.aspx">FORMS</a></li>     
+<li id="li9" runat="server"><a href="Travel.aspx">TRAVEL IDEAS</a></li> 
+<li id="li10" runat="server"><a href="Visittoaustralia.aspx"> VISAS</a>
+ <ul style="left:1000px;">
+      <li> <a href="#"> Visit To India </a> </li>
+      <li> <a href="#"> Visit To USA </a> </li>
+       <li> <a href="#"> Visit To Australia </a> </li>
+        <li> <a href="#">Visit To UK </a> </li>
+    </ul>
+</li>     
+<li id="li11" runat="server"><a href="Contact.aspx">CONTACT </a></li>
+</ul>
+</div><!--menu-->
+<div class="menu_bellow">
+<p style="color:#f4e5e5; font-size:14px; font-family:'Segoe UI'; line-height:31px;
+margin-left:85px; float:left;"><span style="color:#f6ff00; font-size:14px; font-family:Segoe UI; font-weight:bold;">Register</span> for <span style="color:#ffffff; font-size:14px; font-family:'Segoe UI'; font-weight:bold;">Quick Book</span> & get up to $ 500 off on flights & hotels </p>
+<div class="social_networks">
+<li><a href="#"><img src="images/folloewr.png" style="margin-top:10px;"/></a></li>
+<li><a href="#"><img src="images/fb.png" style="margin-top:5px; margin-left:5px;"/></a></li>
+<li><a href="#"><img src="images/in.png" style="margin-top:5px; margin-left:5px;" /></a></li>
+<li><a href="#"><img src="images/twiter.png"  style="margin-top:5px; margin-left:5px;"/></a></li>
+</div><!--social_networks-->
+</div><!--menu_bellow-->
+<div class="banner" style="padding-top:8px;">
+<a href="javascript:gotoshow()"><img src="images/banner.jpg" name="slide" border=0 width=1280 height=257 ></a>
+<script>
+<!--
+
+    //configure the paths of the images, plus corresponding target links
+    slideshowimages("images/banner.jpg", "images/banner_02.jpg", "images/banner_03.jpg", "images/banner_04.jpg", "images/banner_05.jpg", "images/banner_06.jpg")
+
+
+    var slideshowspeed = 2000
+
+    var whichlink = 0
+    var whichimage = 0
+    function slideit() {
+        if (!document.images)
+            return
+        document.images.slide.src = slideimages[whichimage].src
+        whichlink = whichimage
+        if (whichimage < slideimages.length - 1)
+            whichimage++
+        else
+            whichimage = 0
+        setTimeout("slideit()", slideshowspeed)
+    }
+    slideit()
+
+//-->
+</script>
+
+</div>
+
+
+
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+     
+        </asp:ContentPlaceHolder>
+       
+
+
+
+
+
+
+
+<div class="scrolling_flash">
+<div class="flash_left">
+  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="100%" height="70" id="FlashID" title="left">
+    <param name="movie" value="images/L_R.swf" />
+    <param name="quality" value="high" />
+    <param name="wmode" value="opaque" />
+    <param name="swfversion" value="8.0.35.0" />
+    <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+    <param name="expressinstall" value="Scripts/expressInstall.swf" />
+    <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+    <!--[if !IE]>-->
+    <object type="application/x-shockwave-flash" data="images/L_R.swf" width="535" height="70">
+      <!--<![endif]-->
+      <param name="quality" value="high" />
+      <param name="wmode" value="opaque" />
+      <param name="swfversion" value="8.0.35.0" />
+      <param name="expressinstall" value="Scripts/expressInstall.swf" />
+      <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+      <div>
+        <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+        <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+      </div>
+      <!--[if !IE]>-->
+    </object>
+    <!--<![endif]-->
+  </object>
+</div><!--flash _left-->
+<div class="flash_center">
+<img src="images/new/ou_tour.jpg" style="margin-top:12px;" />
+</div><!--flash _center-->
+<div class="flash_right">
+  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="100%" height="70" id="FlashID2" title="right">
+    <param name="movie" value="images/R_L.swf" />
+    <param name="quality" value="high" />
+    <param name="wmode" value="opaque" />
+    <param name="swfversion" value="8.0.35.0" />
+    <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+    <param name="expressinstall" value="Scripts/expressInstall.swf" />
+    <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+    <!--[if !IE]>-->
+    <object type="application/x-shockwave-flash" data="images/R_L.swf" width="558" height="70">
+      <!--<![endif]-->
+      <param name="quality" value="high" />
+      <param name="wmode" value="opaque" />
+      <param name="swfversion" value="8.0.35.0" />
+      <param name="expressinstall" value="Scripts/expressInstall.swf" />
+      <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+      <div>
+        <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+        <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+      </div>
+      <!--[if !IE]>-->
+    </object>
+    <!--<![endif]-->
+  </object>
+</div><!--flash _right-->
+</div><!--scrolling-->
+
+<div class="stock1">
+<img src="images/srock.jpg"  style="margin-left:250px;"/>
+</div>
+
+<div class="tours">
+<img src="images/tours.jpg" />
+</div><!--tours-->
+
+<div class="footer1">
+<p><a href="#">Time Zones</a> |<a href="#"> Airlines Numbers</a> |<a href="#"> Currency </a>| <a href="#">Weather</a> |<a href="#"> Weight Conversion </a>| <a href="#">Travel Insurance</a> |<a href="#">Terms & Conditions</a>|<a href="#">Advertise</a> |<a href="#"> FAQ</a> |<a href="#"> Site Map</a> |<a href="#"> Privacy Policy</a>|Copyright @ Indus Travels 1999-2014. Allrights</p>
+</div>
+</div><!--wrapper class-->
+
+<script type="text/javascript">
+<!--
+    swfobject.registerObject("FlashID");
+    swfobject.registerObject("FlashID2");
+    swfobject.registerObject("FlashID");
+    swfobject.registerObject("FlashID2");
+//-->
+</script>
+
+    </form>
+</body>
+</html>

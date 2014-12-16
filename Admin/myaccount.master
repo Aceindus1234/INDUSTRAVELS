@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="myaccount.master.cs" Inherits="Admin_myaccount" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="Css/stylesheet.css"/>
+<link href="Css/Style.css" rel="stylesheet" type="text/css" media="all" />
+    <title>: : Admin Control : :</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+      
+    </asp:ContentPlaceHolder>
+</head>
+<body onload="SetHiddenVariable()">
+<form id="form2" runat="server">
+    <div>
+       
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr><td>&nbsp;</td></tr>
+  <tr>
+    <td align="center" valign="middle">
+    <table width="1286" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="left" valign="top" style="background-image:url(images/top_strip.png); background-position:center; background-repeat:no-repeat;">
+        <table width="1243" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr><td>&nbsp;</td></tr>
+        <tr><td align="right" width="1243" colspan="3" style="color:Green; font-family:Monotype Corsiva; font-size:large; font-weight:bold; padding-right:25px;">Site visited users count&nbsp;&nbsp; =&nbsp;&nbsp; <asp:Label ID="lblcount" runat="server"></asp:Label></td></tr>
+        <tr><td>&nbsp;</td></tr>
+          <tr>          
+             <td align="center" valign="middle"><asp:ImageButton src="../images/Indus_Travrl_admin.png" width="474" height="77"  runat="server" OnClick="logo_click"/></td>            
+          </tr>
+          <tr>
+          <td align="left"><table border="0"><tr>
+                        
+                         <td id="tdhome" runat="server" width="100" height="20" align="center" valign="middle" style="border-right:#3b4f52 solid 1px;"><asp:LinkButton ID="lnkhome" runat="server" onclick="lnktrans_Click" CausesValidation="false" class="nav_top">Transactions</asp:LinkButton></td>
+                         <td id="tdUsers" runat="server" width="100" height="20" align="center" valign="middle" style="border-right:#3b4f52 solid 1px;"><asp:LinkButton ID="lnkUsers" runat="server" onclick="lnkaccount_Click" CausesValidation="false" class="nav_top">Accounts</asp:LinkButton></td>
+               <%--         <td id="tdplans" runat="server" width="100" height="20" align="center" valign="middle" style="border-right:#3b4f52 solid 1px;"><asp:LinkButton ID="lnkplans" runat="server" CausesValidation="false" onclick="lnkplans_Click" class="nav_top">Plans</asp:LinkButton></td>
+                        <td id="tdTemplates" runat="server" width="100" height="20" align="center" valign="middle" style="border-right:#3b4f52 solid 1px;"><asp:LinkButton ID="lnkTemplates" runat="server" CausesValidation="false" onclick="lnkTemplates_Click" class="nav_top">Templates</asp:LinkButton></td>--%>
+                        <td id="tdPostPackages" runat="server" width="130" height="20" align="center" valign="middle" style="border-right:#3b4f52 solid 1px;"><asp:LinkButton ID="lnkSpecialPackages" runat="server" CausesValidation="false" onclick="lnkrcharge_Click" class="nav_top">Recharge</asp:LinkButton></td>
+                        <%--<td id="tdcontact" runat="server" width="160" height="20" align="center" valign="middle" style="border-right:#3b4f52 solid 1px;"><asp:LinkButton ID="lnkcontact" runat="server" CausesValidation="false" onclick="lnkcontact_Click" class="nav_top">ContactUs Details</asp:LinkButton></td>--%>
+
+                         <td id="tdaccount" runat="server" width="130" height="20" align="center" valign="middle" style="border-right:#3b4f52 solid 1px;"><asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="false" onclick="myprofile_Click" class="nav_top">My Profile</asp:LinkButton></td>
+                          <td id="td2" runat="server" width="130" height="20" align="center" valign="middle" style="border-right:#3b4f52 solid 1px;"><asp:LinkButton ID="LinkButton2" runat="server" CausesValidation="false" onclick="lnksales_Click" class="nav_top">Sales</asp:LinkButton></td>
+                     
+                        <td id="tdlogout" runat="server" width="100" height="20" align="center" valign="middle" ><asp:LinkButton ID="lnkLogout" runat="server" onclick="lnklogout_Click" CausesValidation="false" class="nav_top">Log Off</asp:LinkButton></td>
+             </tr></table></td>
+          </tr>
+          <tr><td align="left" style="padding-left:8px;"><div id="divwelcome" runat="server" Visible="False" ></div></td></tr>
+          <tr><td align="left">&nbsp;</td></tr>
+          
+          <tr>
+            <td  align="center" valign="middle" ><img src="../images/travels6.png" width="1243" height="244" /></td>
+          </tr>
+          </table>
+        </td>
+      </tr>
+        <tr>
+        <td align="left" valign="top" style="background-image:url(images/middle_strip.png); background-position:center; background-repeat:repeat-Y;">
+        <table width="1243" border="0" align="center" cellpadding="0" cellspacing="0">
+           <tr>
+            <td > <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder></td>
+           </tr>
+           <%-- <tr>
+    <td height="10"  align="center" valign="middle" >
+    <table width="1243" border="0" align="center" cellpadding="0" cellspacing="0" height="10">
+           <tr>
+            <td style="background-color:#f0f2f2; " align="center"> Copy right @2013 Indus Email All Rights reserved</td>
+           </tr>
+           
+          </table> 
+        </td>   
+      
+      
+  </tr>--%>
+          </table></td>
+      </tr>    
+   
+  
+ <%-- <tr><td>&nbsp;</td></tr>--%>
+</table>
+     </td>
+     </tr>
+   
+     </table>   
+    </div>
+    </form>

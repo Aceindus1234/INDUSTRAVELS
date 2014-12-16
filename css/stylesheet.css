@@ -1,0 +1,14 @@
+
+/* CSS Document */
+
+body{ -moz-margin:0px; -moz-padding:0px; font-family:Verdana, Geneva, sans-serif; font-size:12px; -moz-background-image:url(../images/bg_patterns.jpg);}
+
+.nav_top_login{ font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#3b4f52; text-decoration:none; outline:none; line-height:18px;}
+.nav_top_login:hover{ font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#b20003; text-decoration:none; outline:none; line-height:18px;}
+
+
+.nav_top{ font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#3b4f52; text-decoration:none; outline:none; line-height:18px;}
+.nav_top:hover{ font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#b20003; text-decoration:none; outline:none; line-height:18px;}
+
+ .subc_lists{ font-family:Ebrima; font-size:14px; color:#2a2929; line-height:18px;}
+ .content{ font-family:Verdana, Geneva, sans-serif; font-size:13px; color:#3b4f52; text-decoration:none; outline:none; line-height:18px; text-align:justify;}

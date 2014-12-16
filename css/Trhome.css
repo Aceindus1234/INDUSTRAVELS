@@ -1,0 +1,58 @@
+﻿.p
+{
+color:#5d5d5d; 
+font-size:12px; 
+font-family:Arial, Helvetica, sans-serif; width:570px;
+text-align:justify; margin-left:32px; line-height:20px;
+	}
+	
+	.li
+	{
+	color:#5d5d5d; 
+	font-size:12px; 
+	font-family:Arial, Helvetica, sans-serif; width:570px;
+text-align:justify;
+ margin-left:32px; 
+ line-height:20px;
+ list-style:none;
+		
+		}
+		.imghome
+		{
+		 margin-left:40px;
+		 padding-left:90px;
+		 float:left;
+		 width:inherit;
+			
+			}
+			.imgsub
+			{
+				margin-left:85px;
+		 padding-left:90px;
+		 float:left;
+		 width:inherit;
+		color:Olive;
+				}
+				.comphead
+				{
+					
+		 font-weight:800;
+		 color:Maroon;
+		 font-size:large;
+		 padding-right:0px;
+		 /*text-align:left;*/
+		 border-bottom:1px solid gray;
+					
+					}
+					.comppara
+					{
+						 color:#5d5d5d;
+						  font-size:12px; 
+						  font-family:Arial, Helvetica, sans-serif;
+						   /*width:905px;*/
+							text-align:justify; 
+							margin-left:0px; 
+							margin-top:15px; 
+							line-height:20px;
+					}
+			.h3{font-size:14px; margin-top:5px;}		
