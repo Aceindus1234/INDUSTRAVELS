@@ -1,0 +1,221 @@
+﻿.body { border-top: 4px solid #061557; background: #055ba5 url(../images/bg/map-bg.jpg) center bottom no-repeat; }
+	.body-bg { background: url(../images/bg/ocean-bg.png) center 0 no-repeat; }
+		.body .inner { padding: 30px 0 0; position: relative; }
+			.featuredDeals { float: left; width: 713px; padding: 0 0 40px; text-align: center; }
+			.noDeals { color: #fff; text-align: left; padding: 0 30px 30px 0; width: 683px; }
+				.noDeals a { color: #fff; text-decoration: underline; }
+				.noDeals li { list-style-type: disc; }
+				
+				.deal { width: 215px; padding: 0 20px 0 0; display: inline-block;  }
+					.deal h2 { margin: 0; line-height: 28px; }					 
+					.deal p { font-size: 16px; text-transform: uppercase; margin: 0 0 4px; }
+						.deal a { color: #fff; }
+						.deal span { font-size: 22px; }
+							.deal sup { font-size: 10px; vertical-align: baseline; position: relative; top: -9px; }
+					.deal .disclaimer { font-size: 1em; color: #fff; text-transform: none; }
+			.findACruise { position: absolute; top: -66px; right: -35px; background: #fff; text-align: center; padding: 22px 0; width: 267px; z-index: 4; }
+				/* VERB Changes below */
+				.findACruise h2 { color: #061557; line-height: 1; margin: 0 0 12px; }
+				.findACruise .selectContainer { margin: 0 auto; padding: 0 7px 0 0; position:relative; z-index:2; }
+				#findaCruiseBtn { color: #fff; border: 1px solid #ffc377; padding: 7px 25px; margin: 6px 0 0; text-transform: uppercase; font-size: 15px; line-height: 15px; background: url(../images/bg/forms/btn-bg.png) 0 center repeat-x; cursor: pointer; }
+				.selectcontainer a.selecttrigger, .selectcontainer a.flyouttrigger, a.leavingfromselecttrigger, a.dateselecttrigger { z-index: 99 !important; }
+				#dateDrop, #destinationDrop, #leavingDrop, #shipDrop { right: -5px !important; text-align: left; }
+				.yearBox ul { padding: 0; }
+				.customMultipleSelect dl dd, .customMultipleSelect dl dd { margin: 0; }
+				#shipDrop h4 { font-weight: bold; text-transform: none; }
+				#shipDrop ul { padding: 0; }
+				
+				.flyoutTrigger span { *margin-right: 33px !important; }
+				/* End VERB changes */
+				
+			.mapArea { clear: both; text-align: center; height: 636px; position: relative; }
+				.mapToggle { text-align: center; width:900px; margin: 12px 0 0; vertical-align: top; position: relative; z-index: 3; }
+					#destMap, #departMap { position: absolute; width: 980px; height: 500px; top: -77px; left: -100px; z-index: 2; }
+					#departMap { top: -15px; }
+					#destinationsBtn, #departuresBtn { min-width: 156px; margin: 0 -1px; text-align: center; display: inline-block; font-size: 1.3em; text-transform: uppercase; font-weight: bold; position: relative; }
+					#destinationsBtn { padding: 0 0 0 6px; }
+					#departuresBtn { padding: 0 6px 0 0; }
+						#departuresBtn a, #destinationsBtn a { display: inline-block; height: 29px; line-height: 29px; }
+						#departuresBtn a { color: #fff; padding: 0 12px 0 15px; }
+						#destinationsBtn a { color: #061556; padding: 0 15px 0 12px; }
+						#destinationsBtn a { text-decoration: none;}
+						#destinationsBtn a:hover, #departuresBtn a:hover { text-decoration: none; }
+							#destinationsBtn .pointer, #departuresBtn .pointer { position: absolute; bottom: -14px; left: 0; font-size: 23px; *font-size: 20px; width: 100%; text-align: center; display: none; }
+							.destinationsActive #destinationsBtn .pointer, .departuresActive #departuresBtn .pointer { display: block; z-index: -1;}
+							#destinationsBtn .pointer { color: #f5c65e; }
+							#departuresBtn .pointer { color: #0b4185; }
+				
+				#departMap { visibility: hidden; }
+				.mapArea .pin { -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; display: inline-block; font-size: 10px; font-weight: bold; text-transform: uppercase; position: absolute; padding: 2px 0 0 8px; top: 0px; min-width: 55px; line-height: 11px; cursor: pointer; }
+					.mapArea .pinInner { padding: 0 8px 0 0; }
+					.mapArea .pin a { color: #061556; display: block; padding: 2px 0 4px; }
+					.mapArea .pin a:hover { text-decoration: none; }
+					.mapArea .pin .pointer { position: absolute; top: 100%; font-size: 14px; line-height: 14px; height: 14px; width: 14px; display: block; margin-top: -6px; }
+				
+				/* Destination Pins */
+				#alcanDestPin { left: 49px; top: 161px; }
+					#alcanDestPin .pointer { left: 28px; }
+				#fareDestPin { left: 777px; top: 282px; }
+					#fareDestPin .pointer { left: 25px; }
+				#austlDestPin { right: 72px; top: 407px; }
+					#austlDestPin .pointer { right: 35px; }
+				#bahamDestPin { right: 739px; top: 280px; }
+					#bahamDestPin .pointer { right: 28px; }
+				#bermuDestPin { left: 255px; top: 263px; }
+					#bermuDestPin .pointer { left: 28px; }
+				#atlcoDestPin { left: 221px; top: 192px; }
+					#atlcoDestPin .pointer { left: 39px; }
+				#caribDestPin { left: 204px; top: 312px; }
+					#caribDestPin .pointer { left: 33px; }
+				#dubaiDestPin { right: 324px; top: 284px; }
+					#dubaiDestPin .pointer { right: 36px; }
+				#europDestPin { left: 416px; top: 185px; }
+					#europDestPin .pointer { left: 29px; }
+				#hawaiDestPin { left: 0; top: 250px; }
+					#hawaiDestPin .pointer { left: 10px; }
+				#mediterraneanDestPin { left: 427px; top: 229px; }
+					#mediterraneanDestPin .pointer { left: 44px; }
+				#islanDestPin { left: 70px; top: 478px; }
+					#islanDestPin .pointer { left: 40px; }
+				#samerDestPin { left: 267px; top: 385px; }
+					#samerDestPin .pointer { left: 46px; }
+				#tatlDestPin { left: 310px; top: 291px; }
+					#tatlDestPin .pointer { left: 40px; }
+				#tpanDestPin { left: 110px; top: 338px; }
+					#tpanDestPin .pointer { left: 72px; }
+				#pacifDestPin { left: 10px; top: 200px; }
+					#pacifDestPin .pointer { left: 78px; }
+				#sopacDestPin { left: 10px; top: 400px; }
+					#sopactDestPin .pointer {left: 40px; }
+					
+			
+				#asiathepacificDepPin, #?siaepac?ficoDepPin, #asiayelpac?ficoDepPin { left: 777px; top: 282px; }
+					#asiathepacificDepPin .pointer, #?siaepac?ficoDepPin .pointer, #asiayelpac?ficoDepPin .pointer { left: 25px; }
+				#northerneuropeDepPin, #nortedaeuropaDepPin, #nortedeeuropaDepPin { left: 425px; top: 187px; }
+					#northerneuropeDepPin .pointer, #nortedaeuropaDepPin .pointer, #nortedeeuropaDepPin .pointer { left: 23px; }
+				#northamericaDepPin, #am?ricadonorteDepPin, #norteam?ricaDepPin { left: 102px; top: 224px; }
+					#northamericaDepPin .pointer, #am?ricadonorteDepPin .pointer, #norteam?ricaDepPin .pointer { left: 39px; }
+				#italyandturkeyDepPin, #it?liaeturquiaDepPin, #italiayturqu?aDepPin { left: 467px; top: 224px; }
+					#italyandturkeyDepPin .pointer, #it?liaeturquiaDepPin .pointer, #italiayturqu?aDepPin .pointer { left: 24px; top: 19px; }
+				#southamericacaribbeanDepPin, #am?ricadosulecaribeDepPin, #sudam?ricayelcaribeDepPin { left: 229px; top: 369px; }
+					#southamericacaribbeanDepPin .pointer, #am?ricadosulecaribeDepPin .pointer, #sudam?ricayelcaribeDepPin .pointer { left: 48px; }
+				#spainportugalandfranceDepPin, #espanhaportugalefran?aDepPin, #espa?aportugalyfranciaDepPin { right: 541px; top: 233px; }
+					#spainportugalandfranceDepPin .pointer, #espanhaportugalefran?aDepPin .pointer, #espa?aportugalyfranciaDepPin .pointer { right: 7px; }
+				#dubaiDepPin, #dub?iDepPin { right: 324px; top: 284px; }
+					#dubaiDepPin .pointer, #dub?iDepPin .pointer { right: 36px; }
+				
+				
+				.selectedPin { z-index: 2; }
+				.selectedPin .pointer { z-index: 3; }
+					
+				.pinTooltip { position: absolute; display: none; background: #fff; z-index: 2; }
+					.pinTooltip span { display: block; background: url(../images/bg/tooltip-header-right.png) right 0 no-repeat; padding: 0 9px 0 0; }
+						.pinTooltip span span { background: url(../images/bg/tooltip-header.png) 0 0 no-repeat; padding: 10px 20px 10px; text-align: center; color: #fff; }
+							.pinTooltip span span span { display: inline-block; padding: 5px 0 5px 21px; background: url(../images/bg/tooltip-crown.png) 0 center no-repeat; font-size: 12px; line-height: 1.2; font-weight: normal; }
+					.pinTooltip ul { float: left; margin: 0; padding: 0; padding: 4px 20px 13px; }
+					.pinTooltip .oneList { float: none; width: 302px; }
+						.pinTooltip li { width: 131px; text-transform: none; padding: 5px 0 4px; border-bottom: 1px solid #dbdbdb; }
+						.pinTooltip .last { border: 0; padding: 10px 0 0; }
+						.pinTooltip .oneList li { width: 131px; margin: 0 auto; display: block; }
+							.pin .pinTooltip a { color: #0076bd; font-weight: normal; }
+							.pin .pinTooltip a:hover { text-decoration: underline; }
+						
+				.pinTooltip .closeBtn { display: block; width: 19px; height: 19px; text-indent: -9999em; position: absolute; background: url(../images/bg/close-btn.png) 0 0 no-repeat; top: 7px; right: -19px; }
+				
+				#tt-rep-content {display:none;}
+					.legendTooltip { position: absolute; width: 201px; padding: 13px 0 0; background: url(../images/bg/legend-tooltip-top.png) 0 0 no-repeat; display: block; font-size: 11px; text-transform: none; font-weight: normal; bottom: 10px; left: -100px; z-index: 110; color: #363636; }
+						.legendTooltipInner { width: 179px; padding: 0 12px 20px; background: url(../images/bg/legend-tooltip-btm.png) 0 bottom no-repeat; display: block; }
+							.tooltipHeading { text-transform: uppercase; color: #0b63b2; display: block; }
+							
+							
+							
+							
+
+
+/* Body */
+.findACruise { -moz-border-radius-topleft: 0px; -moz-border-radius-topright: 8px; -moz-border-radius-bottomright: 0px; -moz-border-radius-bottomleft: 0px; -webkit-border-radius: 0px 8px 0px 0px; border-radius: 0px 8px 0px 0px; -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.45), inset 10px -10px 40px -15px #bfc0c0; -moz-box-shadow: 0 0 5px rgba(0,0,0,0.45), inset 10px -10px 40px -15px #bfc0c0; box-shadow: 0 0 5px rgba(0,0,0,0.45), inset 10px -10px 40px -15px #bfc0c0; }
+.no-borderradius .findACruise, .no-js .findACruise { background: url(../images/bg/forms/booking-bg-top.png) 0 0 no-repeat; padding: 17px 0 0; width: 275px; }
+.no-js .findACruise { -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
+	.no-borderradius .findACruiseInner, .no-js .findACruiseInner { background: url(../images/bg/forms/booking-bg-btm.png) 0 bottom no-repeat; padding: 5px 0 22px; }
+	#findaCruiseBtn { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2); box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2); background: -moz-linear-gradient(top, #ff8726 0%, #ff8726 50%, #e86125 51%, #e86125 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff8726), color-stop(50%,#ff8726), color-stop(51%,#e86125), color-stop(100%,#e86125)); background: -webkit-linear-gradient(top, #ff8726 0%,#ff8726 50%,#e86125 51%,#e86125 100%); background: -o-linear-gradient(top, #ff8726 0%,#ff8726 50%,#e86125 51%,#e86125 100%); background: -ms-linear-gradient(top, #ff8726 0%,#ff8726 50%,#e86125 51%,#e86125 100%); background: linear-gradient(top, #ff8726 0%,#ff8726 50%,#e86125 51%,#e86125 100%); }
+	.no-borderradius #findaCruiseBtn, .no-js #findaCruiseBtn { background: url(../images/bg/forms/btn-whole-right.png) right 0 no-repeat; padding: 0 13px 2px 0; display: block; height: 34px; line-height: 34px; border: 0;  }
+	.no-js #findaCruiseBtn { margin: 0 auto; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
+		.no-borderradius #findaCruiseBtn span, .no-js #findaCruiseBtn span { background: url(../images/bg/forms/btn-whole.png) 0 0 no-repeat; border: 0; padding: 0 0 0 13px; display: block; height: 34px; line-height: 34px; }
+		
+#destinationsBtn { background: -moz-linear-gradient(top, #f9d781 0%, #f9d781 50%, #f5c65e 51%, #f5c65e 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9d781), color-stop(50%,#f9d781), color-stop(51%,#f5c65e), color-stop(100%,#f5c65e)); background: -webkit-linear-gradient(top, #f9d781 0%,#f9d781 50%,#f5c65e 51%,#f5c65e 100%); background: -o-linear-gradient(top, #f9d781 0%,#f9d781 50%,#f5c65e 51%,#f5c65e 100%); background: -ms-linear-gradient(top, #f9d781 0%,#f9d781 50%,#f5c65e 51%,#f5c65e 100%); background: linear-gradient(top, #f9d781 0%,#f9d781 50%,#f5c65e 51%,#f5c65e 100%); -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 0px; -moz-border-radius-bottomright: 0px; -moz-border-radius-bottomleft: 5px; -webkit-border-radius: 5px 0px 0px 5px; border-radius: 5px 0px 0px 5px; }
+	.no-cssgradients #destinationsBtn { background: url(../images/bg/destinations-btn-rounded.png) 0 center no-repeat; }
+	.no-cssgradients #destinationsBtn a { background: url(../images/bg/destinations-btn-bg.png) 0 center repeat-x; min-width: 145px; }
+#departuresBtn { background: -moz-linear-gradient(top, #0e53a9 0%, #0e53a9 50%, #0b4185 51%, #0b4185 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0e53a9), color-stop(50%,#0e53a9), color-stop(51%,#0b4185), color-stop(100%,#0b4185)); background: -webkit-linear-gradient(top, #0e53a9 0%,#0e53a9 50%,#0b4185 51%,#0b4185 100%); background: -o-linear-gradient(top, #0e53a9 0%,#0e53a9 50%,#0b4185 51%,#0b4185 100%); background: -ms-linear-gradient(top, #0e53a9 0%,#0e53a9 50%,#0b4185 51%,#0b4185 100%); background: linear-gradient(top, #0e53a9 0%,#0e53a9 50%,#0b4185 51%,#0b4185 100%); -moz-border-radius-topleft: 0px; -moz-border-radius-topright: 5px; -moz-border-radius-bottomright: 5px; -moz-border-radius-bottomleft: 0px; -webkit-border-radius: 0px 5px 5px 0px; border-radius: 0px 5px 5px 0px; }
+	.no-cssgradients #departuresBtn { background: url(../images/bg/departures-btn-rounded.png) right center no-repeat; }
+	.no-cssgradients #departuresBtn a { background: url(../images/bg/departures-btn-bg.png) 0 center repeat-x; min-width: 145px; }
+	
+.destinationsActive .pin { background: -moz-linear-gradient(top, #faebc5 0%, #faebc5 59%, #f7d385 60%, #f7d385 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#faebc5), color-stop(59%,#faebc5), color-stop(60%,#f7d385), color-stop(100%,#f7d385)); background: -webkit-linear-gradient(top, #faebc5 0%,#faebc5 59%,#f7d385 60%,#f7d385 100%); background: -o-linear-gradient(top, #faebc5 0%,#faebc5 59%,#f7d385 60%,#f7d385 100%); background: -ms-linear-gradient(top, #faebc5 0%,#faebc5 59%,#f7d385 60%,#f7d385 100%); background: linear-gradient(top, #faebc5 0%,#faebc5 59%,#f7d385 60%,#f7d385 100%); }
+.no-cssgradients .destinationsActive .pin, .no-js .destinationsActive .pin { background: url(../images/bg/des-pin-short-left.png) 0 bottom no-repeat; height: 19px; }
+.no-cssgradients .destinationsActive .pinInner, .no-js .destinationsActive .pinInner { background: url(../images/bg/des-pin-short-right.png) right bottom no-repeat; height: 19px; }
+.no-cssgradients .destinationsActive .pinInner a, .no-js .destinationsActive .pinInner a { background: url(../images/bg/des-pin-bg.png) 0 -13px repeat-x; padding-top: 4px; }
+.no-cssgradients #canadaDestPin, .no-cssgradients #australiaDestPin, .no-js #canadaDestPin, .no-js #australiaDestPin { background: url(../images/bg/des-pin-tall-left.png) 0 bottom no-repeat; height: 30px; }
+.no-cssgradients #canadaDestPin .pinInner, .no-cssgradients #australiaDestPin .pinInner, .no-js #canadaDestPin .pinInner, .no-js #australiaDestPin .pinInner { background: url(../images/bg/des-pin-tall-right.png) right bottom no-repeat; height: 30px; }
+.no-cssgradients #canadaDestPin a, .no-cssgradients #australiaDestPin a, .no-js #canadaDestPin a, .no-js #australiaDestPin a { background-position: 0 -8px; }
+	.destinationsActive .pin .pointer { color: #f7d385; }
+
+.departuresActive .pin { background: -moz-linear-gradient(top, #ace3ff 0%, #ace3ff 59%, #70c1f2 60%, #70c1f2 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ace3ff), color-stop(59%,#ace3ff), color-stop(60%,#70c1f2), color-stop(100%,#70c1f2)); background: -webkit-linear-gradient(top, #ace3ff 0%,#ace3ff 59%,#70c1f2 60%,#70c1f2 100%); background: -o-linear-gradient(top, #ace3ff 0%,#ace3ff 59%,#70c1f2 60%,#70c1f2 100%); background: -ms-linear-gradient(top, #ace3ff 0%,#ace3ff 59%,#70c1f2 60%,#70c1f2 100%); background: linear-gradient(top, #ace3ff 0%,#ace3ff 59%,#70c1f2 60%,#70c1f2 100%); }
+.no-cssgradients .departuresActive .pin, .no-js .departuresActive .pin { background: url(../images/bg/dep-pin-short-left.png) 0 bottom no-repeat; height: 19px; }
+.no-cssgradients .departuresActive .pinInner, .no-js .departuresActive .pinInner { background: url(../images/bg/dep-pin-short-right.png) right bottom no-repeat; height: 19px; }
+.no-cssgradients .departuresActive .pinInner a, .no-js .departuresActive .pinInner a { background: url(../images/bg/dep-pin-bg.png) 0 -13px repeat-x; padding-top: 4px; }
+
+.no-cssgradients #canadaDepPin, .no-js #canadaDepPin, .no-cssgradients #hawaiiDepPin, .no-js #hawaiiDepPin, .no-cssgradients #gulfDepPin, .no-js #gulfDepPin, .no-cssgradients #nwnaDepPin, .no-js #nwnaDepPin, .no-cssgradients #caribbeanDepPin, .no-js #caribbeanDepPin { background: url(../images/bg/dep-pin-tall-left.png) 0 bottom no-repeat; height: 30px; }
+
+.no-cssgradients #canadaDepPin .pinInner, .no-js #canadaDepPin .pinInner, 
+.no-cssgradients #hawaiiDepPin .pinInner, .no-js #hawaiiDepPin .pinInner,
+.no-cssgradients #gulfDepPin .pinInner, .no-js #gulfDepPin .pinInner,
+.no-cssgradients #nwnaDepPin .pinInner, .no-js #nwnaDepPin .pinInner,
+.no-cssgradients #caribbeanDepPin .pinInner, .no-js #caribbeanDepPin .pinInner { background: url(../images/bg/dep-pin-tall-right.png) right bottom no-repeat; height: 30px; }
+
+.no-cssgradients #canadaDepPin a, .no-js #canadaDepPin a,
+.no-cssgradients #hawaiiDepPin a, .no-js #hawaiiDepPin a,
+.no-cssgradients #gulfDepPin a, .no-js #gulfDepPin a,
+.no-cssgradients #nwnaDepPin a, .no-js #nwnaDepPin a,
+.no-cssgradients #caribbeanDepPin a, .no-js #caribbeanDepPin a { background-position: 0 -8px; }
+	.departuresActive .pin .pointer { color: #70c1f2; }
+
+.mapArea .map .pinHover, .mapArea .map .selectedPin { background: -moz-linear-gradient(top, #ffffff 0%, #dcecf5 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#dcecf5));
+background: -webkit-linear-gradient(top, #ffffff 0%,#dcecf5 100%); background: -o-linear-gradient(top, #ffffff 0%,#dcecf5 100%); background: -ms-linear-gradient(top, #ffffff 0%,#dcecf5 100%); background: linear-gradient(top, #ffffff 0%,#dcecf5 100%); }
+
+.no-cssgradients .mapArea .map .pinHover, .no-js .mapArea .map .pinHover, .no-cssgradients .mapArea .map .selectedPin, .no-js .mapArea .map .selectedPin { background: url(../images/bg/map-pin-hover-short-left.png) 0 bottom no-repeat; height: 19px; }
+.no-cssgradients .mapArea .map .pinHover .pinInner, .no-js .mapArea .map .pinHover .pinInner, .no-cssgradients .mapArea .map .selectedPin .pinInner, .no-js .mapArea .map .selectedPin .pinInner { background: url(../images/bg/map-pin-hover-short-right.png) right bottom no-repeat; height: 19px; }
+
+.no-cssgradients #canadaDestPin.pinHover, .no-cssgradients #canadaDepPin.pinHover, 
+.no-cssgradients #australiaDestPin.pinHover,
+.no-cssgradients #hawaiiDepPin.pinHover,
+.no-cssgradients #gulfDepPin.pinHover,
+.no-cssgradients #nwnaDepPin.pinHover,
+.no-cssgradients #caribbeanDepPin.pinHover,
+.no-cssgradients #canadaDepPin.selectedPin,
+.no-cssgradients #hawaiiDepPin.selectedPin,
+.no-cssgradients #gulfDepPin.selectedPin,
+.no-cssgradients #nwnaDepPin.selectedPin,
+.no-cssgradients #caribbeanDepPin.selectedPin { background: url(../images/bg/map-pin-hover-tall-left.png) 0 bottom no-repeat; height: 30px; }
+
+.no-cssgradients #canadaDestPin.pinHover .pinInner,
+.no-cssgradients #australiaDestPin.pinHover .pinInner,
+.no-cssgradients #canadaDepPin.pinHover .pinInner,
+.no-cssgradients #hawaiiDepPin.pinHover .pinInner,
+.no-cssgradients #gulfDepPin.pinHover .pinInner,
+.no-cssgradients #nwnaDepPin.pinHover .pinInner,
+.no-cssgradients #caribbeanDepPin.pinHover .pinInner,
+.no-cssgradients #canadaDepPin.selectedPin .pinInner,
+.no-cssgradients #hawaiiDepPin.selectedPin .pinInner,
+.no-cssgradients #gulfDepPin.selectedPin .pinInner,
+.no-cssgradients #nwnaDepPin.selectedPin .pinInner,
+.no-cssgradients #caribbeanDepPin.selectedPin .pinInner { background: url(../images/bg/map-pin-hover-tall-right.png) right bottom no-repeat; height: 30px; }
+
+.no-cssgradients .mapArea .map .pinHover .pinInner a, .no-js .mapArea .map .pinHover .pinInner a, .no-cssgradients .mapArea .map .selectedPin .pinInner a, .no-js .mapArea .map .selectedPin .pinInner a { background: #fff url(../images/bg/map-pin-hover.png) 0 bottom repeat-x !important; padding-top: 4px; }
+	.mapArea .map .pinHover .pointer, .mapArea .map .pinHover .pointer, .mapArea .map .selectedPin .pointer, .mapArea .map .selectedPin .pointer { color: #dcecf5; }
+	#caribbeanDepPin.pinHover .pointer, #caribbeanDepPin.pinHover .pointer, #caribbeanDepPin.selectedPin .pointer, #caribbeanDepPin.selectedPin .pointer, #italyDepPin.pinHover .pointer, #italyDepPin.pinHover .pointer, #italyDepPin.selectedPin .pointer, #italyDepPin.selectedPin .pointer, #dubaiDepPin.pinHover .pointer, #dubaiDepPin.pinHover .pointer, #dubaiDepPin.selectedPin .pointer, #dubaiDepPin.selectedPin .pointer { color: #fff; }
+	
+.cssgradients .pinTooltip { background: -moz-linear-gradient(bottom, #c2e0f9 0%, #ffffff 28px); background: -webkit-gradient(linear, left bottom, left top, color-stop(0%,#c2e0f9), color-stop(28px,#ffffff)); background: -webkit-linear-gradient(bottom, #c2e0f9 0%,#ffffff 28px); background: -o-linear-gradient(bottom, #c2e0f9 0%,#ffffff 28px); background: -ms-linear-gradient(bottom, #c2e0f9 0%,#ffffff 28px); background: linear-gradient(bottom, #c2e0f9 0%,#ffffff 28px); }
+
+a
+{
+	text-decoration:none;
+}
