@@ -29,8 +29,8 @@
 <li id="lin5" runat="server"><a href="Cruises.aspx">CRUISES </a></li>  
 <li id="lin11" runat="server"><a href="#"> VISAS</a>
 <div class="non">
-<ul  style="left:540px;border-top:0px ; margin-top:0px; padding-top:0px; " >
-     <li> <a href="VisitIndia.aspx"> Visit To India </a> </li>
+<ul  style="left:580px;border-top:0px ; margin-top:0px; padding-top:0px; " >
+  <%--   <li> <a href="VisitIndia.aspx"> Visit To India </a> </li>--%>
       <li> <a href="VisitUSA.aspx"> Visit To USA </a> </li>
        <li> <a href="Visittoaustralia.aspx"> Visit To Australia </a> </li>
         <li> <a href="VisitUK.aspx">Visit To UK </a> </li>
@@ -57,10 +57,10 @@
 <%--<p style="color:#f4e5e5; font-size:14px; font-family:'Segoe UI'; line-height:31px;
 margin-left:85px; float:left;"><span style="color:#f6ff00; font-size:14px; font-family:Segoe UI; font-weight:bold;">Register</span> for <span style="color:#ffffff; font-size:14px; font-family:'Segoe UI'; font-weight:bold;">Quick Book</span> & get up to $ 500 off on flights & hotels </p>
 --%><div class="social_networks">
-<li><a href="#"><img alt="Indus Image" src="images/folloewr.png" style="margin-top:10px;"/></a></li>
-<li><a href="#"><img alt="Indus Image" src="images/fb.png" style="margin-top:7px; margin-left:5px; "/></a></li>
-<li><a href="#"><img alt="Indus Image" src="images/in.png" style="margin-top:7px; margin-left:5px;" /></a></li>
-<li><a href="#"><img alt="Indus Image" src="images/twiter.png"  style="margin-top:7px; margin-left:5px;"/></a></li>
+<li><img alt="Indus Image" src="images/folloewr.png" style="margin-top:10px;"/></li>
+<li><a href="https://www.facebook.com/Industravelsandtours" target="_blank"><img alt="Indus Image" src="images/fb.png" style="margin-top:7px; margin-left:5px; "/></a></li>
+<li><a href="https://www.linkedin.com/in/industravelsandtours" target="_blank"><img alt="Indus Image" src="images/in.png" style="margin-top:7px; margin-left:5px;" /></a></li>
+<li><a href="https://twitter.com/industravel9" target="_blank"><img alt="Indus Image" src="images/twiter.png"  style="margin-top:7px; margin-left:5px;"/></a></li>
 </div><!--social_networks-->
 </div><!--menu_bellow-->
 
@@ -76,7 +76,7 @@ margin-left:85px; float:left;"><span style="color:#f6ff00; font-size:14px; font-
 
 <div class="banner" style="margin-top:6px;"> 
 
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1280" height="257" id="FlashID3" title="newflash">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1280" height="257" id="FlashID3" title="Indus Travels & Tours">
   <param name="movie" value="images/text1_flash.swf" />
   <param name="quality" value="high" />
   <param name="wmode" value="opaque" />

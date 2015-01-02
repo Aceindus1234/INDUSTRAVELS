@@ -17,8 +17,8 @@
 <link href="css/style12.css" type="text/css" rel="stylesheet" />
 <link href="css/style.css" type="text/css" rel="stylesheet" />
 <link href="css/menu.css" rel="stylesheet" type="text/css" />
- <link type="text/css" rel="stylesheet" href="css/homepage.css">
-<style>
+ <link type="text/css" rel="stylesheet" href="css/homepage.css"/>
+<style type="text/css">
 h1 {
 	color:#c62731;
 	font-size:19px;
@@ -73,112 +73,112 @@ text-align:justify; text-align:center; margin-top:25px;">Under Construction.</h1
 				
 					<div id="alcanDestPin" class="pin">
 						<div class="pinInner">							
-							<a href="http://www.royalcaribbean.com/findacruise/destinations/home.do?dest=ALCAN" target="_blank">Alaska</a>
+							<a href="#" target="_blank">Alaska</a>
 							<span class="pointer">&#9660;</span>
 						</div>
 					</div>				
 					<div id="fareDestPin" class="pin">
 						<div class="pinInner">
 							
-							<a href="http://www.royalcaribbean.com/findacruise/destinations/home.do?dest=FAR.E" target="_blank">Asia</a>
+							<a href="#" target="_blank">Asia</a>
 							<span class="pointer">&#9660;</span>
 						</div>
 					</div>				
 					<div id="austlDestPin" class="pin">
 						<div class="pinInner">
 							
-							<a href="http://www.royalcaribbean.com/findacruise/destinations/home.do?dest=AUSTL" target="_blank">Australia/New Zealand</a>
+							<a href="#" target="_blank">Australia/New Zealand</a>
 							<span class="pointer">&#9660;</span>
 						</div>
 					</div>				
 					<div id="bahamDestPin" class="pin">
 						<div class="pinInner">
 							
-							<a href="http://www.royalcaribbean.com/findacruise/destinations/home.do?dest=BAHAM" target="_blank">Bahamas</a>
+							<a href="#" target="_blank">Bahamas</a>
 							<span class="pointer">&#9660;</span>
 						</div>
 					</div>
 					<div id="bermuDestPin" class="pin">
 						<div class="pinInner">
 							
-							<a href="http://www.royalcaribbean.com/findacruise/destinations/home.do?dest=BERMU" target="_blank">Bermuda</a>
+							<a href="#" target="_blank">Bermuda</a>
 							<span class="pointer">&#9660;</span>
 						</div>
 					</div>
 					<div id="atlcoDestPin" class="pin">
 						<div class="pinInner">
 							
-							<a href="http://www.royalcaribbean.com/findacruise/destinations/home.do?dest=ATLCO" target="_blank">Canada/New England</a>
+							<a href="#" target="_blank">Canada/New England</a>
 							<span class="pointer">&#9660;</span>
 						</div>
 					</div>				
 					<div id="caribDestPin" class="pin">
 						<div class="pinInner">
 							
-							<a href="http://www.royalcaribbean.com/findacruise/destinations/home.do?dest=CARIB" target="_blank">Caribbean</a>
+							<a href="#" target="_blank">Caribbean</a>
 							<span class="pointer">&#9660;</span>
 						</div>
 					</div>
 					<div id="dubaiDestPin" class="pin">
 						<div class="pinInner">
 							
-							<a href="http://www.royalcaribbean.com/findacruise/destinations/home.do?dest=DUBAI" target="_blank">Dubai/Emirates</a>
+							<a href="#" target="_blank">Dubai/Emirates</a>
 							<span class="pointer">&#9660;</span>
 						</div>
 					</div>				
 					<div id="europDestPin" class="pin">
 						<div class="pinInner">
 							
-							<a href="http://www.royalcaribbean.com/findacruise/destinations/home.do?dest=EUROP" target="_blank">Europe</a>
+							<a href="#" target="_blank">Europe</a>
 							<span class="pointer">&#9660;</span>
 						</div>
 					</div>				
 					<div id="hawaiDestPin" class="pin">
 						<div class="pinInner">
 							
-							<a href="http://www.royalcaribbean.com/findacruise/destinations/home.do?dest=HAWAI" target="_blank">Hawaii</a>
+							<a href="#" target="_blank">Hawaii</a>
 							<span class="pointer">&#9660;</span>
 						</div>
 					</div>
 					<div id="pacifDestPin" class="pin">
 						<div class="pinInner">
 							
-							<a href="http://www.royalcaribbean.com/findacruise/destinations/home.do?dest=PACIF" target="_blank">Pacific Northwest</a>
+							<a href="#" target="_blank">Pacific Northwest</a>
 							<span class="pointer">&#9660;</span>
 						</div>
 					</div>
 					<div id="tpanDestPin" class="pin">
 						<div class="pinInner">
 							
-							<a href="http://www.royalcaribbean.com/findacruise/destinations/home.do?dest=T.PAN" target="_blank">Panama Canal</a>
+							<a href="#" target="_blank">Panama Canal</a>
 							<span class="pointer">&#9660;</span>
 						</div>
 					</div>
 					<div id="islanDestPin" class="pin">
 						<div class="pinInner">
 							
-							<a href="http://www.royalcaribbean.com/findacruise/destinations/home.do?dest=ISLAN" target="_blank">Repositioning</a>
+							<a href="#" target="_blank">Repositioning</a>
 							<span class="pointer">&#9660;</span>
 						</div>
 					</div>
 					<div id="samerDestPin" class="pin">
 						<div class="pinInner">
 							
-							<a href="http://www.royalcaribbean.com/findacruise/destinations/home.do?dest=SAMER" target="_blank">South America</a>
+							<a href="#" target="_blank">South America</a>
 							<span class="pointer">&#9660;</span>
 						</div>
 					</div>
 					<div id="sopacDestPin" class="pin">
 						<div class="pinInner">
 							
-							<a href="http://www.royalcaribbean.com/findacruise/destinations/home.do?dest=SOPAC" target="_blank">South Pacific</a>
+							<a href="#" target="_blank">South Pacific</a>
 							<span class="pointer">&#9660;</span>
 						</div>
 					</div>
 					<div id="tatlDestPin" class="pin">
 						<div class="pinInner">
 							
-							<a href="http://www.royalcaribbean.com/findacruise/destinations/home.do?dest=T.ATL" target="_blank">Transatlantic</a>
+							<a href="#" target="_blank">Transatlantic</a>
 							<span class="pointer">&#9660;</span>
 						</div>
 					</div>
@@ -193,22 +193,22 @@ text-align:justify; text-align:center; margin-top:25px;">Under Construction.</h1
 							<div class="pinTooltip">
 								<span><span><span>Ports for Asia & the Pacific</span></span></span>								
 								<ul>										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=BAO" >Baoshan (Shanghai), China</a></li>
+										<li><a href="#" >Baoshan (Shanghai), China</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=BNE" >Brisbane, Australia</a></li>
+										<li><a href="#" >Brisbane, Australia</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=HKG" >Hong Kong, China</a></li>
+										<li><a href="#" >Hong Kong, China</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=FRE" >Perth (Fremantle), Australia</a></li>
+										<li><a href="#" >Perth (Fremantle), Australia</a></li>
 										
 								</ul>
 								
 								<ul>
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=SIN" >Singapore</a></li>
+										<li><a href="#" >Singapore</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=SYD" >Sydney, Australia</a></li>
+										<li><a href="#" >Sydney, Australia</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=TSN" >Tianjin, China</a></li>
+										<li><a href="#" >Tianjin, China</a></li>
 										
 								</ul>
 								
@@ -226,7 +226,7 @@ text-align:justify; text-align:center; margin-top:25px;">Under Construction.</h1
 								<span><span><span>Ports for Dubai</span></span></span>
 								<ul>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=DXB" >Dubai, United Arab Emirates</a></li>
+										<li><a href="#" >Dubai, United Arab Emirates</a></li>
 										
 								</ul>
 								
@@ -244,14 +244,14 @@ text-align:justify; text-align:center; margin-top:25px;">Under Construction.</h1
 								<span><span><span>Ports for Italy And Turkey</span></span></span>
 								
 								<ul>
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=ROM" >Civitavecchia (Rome), Italy</a></li>
+										<li><a href="#" >Civitavecchia (Rome), Italy</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=IST" >Istanbul, Turkey</a></li>
+										<li><a href="#" >Istanbul, Turkey</a></li>
 										
 								</ul>
 								
 								<ul>
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=VCE" >Venice, Italy</a></li>
+										<li><a href="#" >Venice, Italy</a></li>
 										
 								</ul>
 								
@@ -269,40 +269,40 @@ text-align:justify; text-align:center; margin-top:25px;">Under Construction.</h1
 								<span><span><span>Ports for North America</span></span></span>
 								
 								<ul>
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=BWI" >Baltimore, Maryland</a></li>
+										<li><a href="#" >Baltimore, Maryland</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=BOS" >Boston, Massachusetts</a></li>
+										<li><a href="#" >Boston, Massachusetts</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=BYE" >Cape Liberty, New Jersey</a></li>
+										<li><a href="#" >Cape Liberty, New Jersey</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=FLL" >Fort Lauderdale, Florida</a></li>
+										<li><a href="#" >Fort Lauderdale, Florida</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=GAL">Galveston, Texas</a></li>
+										<li><a href="#">Galveston, Texas</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=HNL" >Honolulu (Oahu), Hawaii</a></li>
+										<li><a href="#" >Honolulu (Oahu), Hawaii</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=LAX" >Los Angeles, California</a></li>
+										<li><a href="#" >Los Angeles, California</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=MIA" >Miami, Florida</a></li>
+										<li><a href="#" >Miami, Florida</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=MSY" >New Orleans, Louisiana</a></li>
+										<li><a href="#" >New Orleans, Louisiana</a></li>
 										
 								</ul>
 								
 								<ul>
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=PCN" >Port Canaveral, Florida</a></li>
+										<li><a href="#" >Port Canaveral, Florida</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=YQB" >Quebec City, Quebec</a></li>
+										<li><a href="#" >Quebec City, Quebec</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=SAN" >San Diego, California</a></li>
+										<li><a href="#" >San Diego, California</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=SEA" >Seattle, Washington</a></li>
+										<li><a href="#" >Seattle, Washington</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=SWD" >Seward, Alaska</a></li>
+										<li><a href="#" >Seward, Alaska</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=TPA" >Tampa, Florida</a></li>
+										<li><a href="#" >Tampa, Florida</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=YVR" >Vancouver, British Columbia</a></li>
+										<li><a href="#" >Vancouver, British Columbia</a></li>
 										
 								</ul>
 								
@@ -319,14 +319,14 @@ text-align:justify; text-align:center; margin-top:25px;">Under Construction.</h1
 							<div class="pinTooltip">
 								<span><span><span>Ports for South America & Caribbean</span></span></span>
 								<ul>
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=SJU" >San Juan, Puerto Rico</a></li>
+										<li><a href="#" >San Juan, Puerto Rico</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=SSZ" >Sao Paulo (Santos), Brazil</a></li>
+										<li><a href="#" >Sao Paulo (Santos), Brazil</a></li>
 										
 								</ul>
 								
 								<ul>
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=VAP" >Valparaiso, Chile</a></li>
+										<li><a href="#" >Valparaiso, Chile</a></li>
 										
 								</ul>
 								
@@ -345,22 +345,22 @@ text-align:justify; text-align:center; margin-top:25px;">Under Construction.</h1
 								
 								<ul>
 									
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=CPH" >Copenhagen, Denmark</a></li>
+										<li><a href="#" >Copenhagen, Denmark</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=HAM" >Hamburg, Germany</a></li>
+										<li><a href="#" >Hamburg, Germany</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=LGW" >Harwich, England</a></li>
+										<li><a href="#" >Harwich, England</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=OSL" >Oslo, Norway</a></li>
+										<li><a href="#" >Oslo, Norway</a></li>
 										
 								</ul>
 								
 								<ul>
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=RTM" >Rotterdam, Netherlands</a></li>
+										<li><a href="#" >Rotterdam, Netherlands</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=STH" >Southampton, England</a></li>
+										<li><a href="#" >Southampton, England</a></li>
 										
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=STO" >Stockholm, Sweden</a></li>
+										<li><a href="#" >Stockholm, Sweden</a></li>
 										
 								</ul>								
 								<a href="#" class="closeBtn">X</a>
@@ -377,7 +377,7 @@ text-align:justify; text-align:center; margin-top:25px;">Under Construction.</h1
 								<span><span><span>Ports for Spain, Portugal And France</span></span></span>
 								<ul>
 									
-										<li><a href="http://www.royalcaribbean.com/findacruise/ports/group/home.do?portType=DEPART&portCode=BCN">Barcelona, Spain</a></li>
+										<li><a href="#">Barcelona, Spain</a></li>
 										
 								</ul>
 								

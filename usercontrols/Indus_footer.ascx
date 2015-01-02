@@ -26,9 +26,9 @@
 <img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li><a href="PackageLocation.aspx?loc=Kashmir&type=Domes" style="color:#808080";>Exotic Kashmir</a></li>
 <img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li><a href="PackageLocation.aspx?loc=Andaman&type=Domes" style="color:#808080";>Experience Andamans</a></li>
 <img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li>
-<a href="SearchTours.aspx?location=india&name=golden_triangle-tour-packages" style="color:#808080";>Golden Triangle Holiday</a></li>
+<a href="PackageLocation.aspx?loc=Golden Triangle&type=Domes" style="color:#808080";>Golden Triangle Holiday</a></li>
 <img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li>
-<a href="SearchTours.aspx?location=india&name=south_india-travel-packages" style="color:#808080";>Heritage Travel India</a></li>
+<a href="HolidaySpot.aspx?DestTheme=Heritage&regions=Domes" style="color:#808080";>Heritage Travel India</a></li>
 <img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li><a href="PackageLocation.aspx?loc=Kerala&type=Domes" style="color:#808080";>Scenic Kerala</a></li>
 </div><!--box1-->
 <div class="left_stock">
@@ -36,16 +36,16 @@
 </div><!--left_strock-->
 <div class="box2">
 <h1>Out Bound Tours </h1>
-<img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li><a href="SearchTours.aspx?location=international&name=australia-vacation-tour-packages"
- style="color:#808080";>Australia Holiday Packages</a></li>
- <img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li><a href="SearchTours.aspx?location=international&name=europe-vacation-tour-packages"
- style="color:#808080";>Europe Tour Packages</a></li>
-<img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li><a href="SearchTours.aspx?location=international&name=new_zealand-vacation-tour-packages"
- style="color:#808080";>New Zealand Tour Packages</a></li> 
-<img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li><a  href="SearchTours.aspx?location=international&name=asia-vacation-tour-packages"
- style="color:#808080";>South East Asia Tours </a></li>
-<img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li><a href="SearchTours.aspx?location=international&name=sri_lanka-vacation-tour-packages"
- style="color:#808080";>Srilanka Tours </a></li>
+<img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li>
+<a href="PackageLocation.aspx?loc=Australia&type=inter" style="color:#808080";>Australia Holiday Packages</a></li>
+ <img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li>
+ <a href="HolidaySpot.aspx?type=FSSIGT&regions=inter" style="color:#808080";>Europe Tour Packages</a></li>
+<img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li>
+<a href="PackageLocation.aspx?loc=NewZealand&type=inter" style="color:#808080";>New Zealand Tour Packages</a></li> 
+<img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li>
+<a  href="HolidaySpot.aspx?type=TMSI&regions=inter" style="color:#808080";>South East Asia Tours </a></li>
+<img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li>
+<a href="PackageLocation.aspx?loc=Srilanka&type=inter" style="color:#808080";>Srilanka Tours </a></li>
 </div><!--box2-->
 <div class="left_stock">
 <img alt="Indus Image" src="images/left_srock.png" />
@@ -53,7 +53,7 @@
 <div class="box3">
 <h1>Hotel Booking </h1>
 <img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li><a href="#" style="color:#808080";>France , Swiss Paris</a></li>
-<img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li><a href="#" style="color:#808080";>Hilights Of Turkey</a></li>
+<img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li><a href="#" style="color:#808080";>Highlights Of Turkey</a></li>
 <img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li><a href="#" style="color:#808080";>Hongkong With Macau Package</a></li>
 <img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li><a href="#" style="color:#808080";>Luxury in Singapore </a></li>
 <img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li><a href="#" style="color:#808080";>Maldives With Cochin Stopover</a></li>
@@ -63,11 +63,11 @@
 </div><!--left_strock-->
 <div class="box4">
 <h1>Travel Services </h1>
-<img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li><a href="#" style="color:#808080";>Domestic and International Air Ticketing</a></li>
-<img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li><a href="#" style="color:#808080";>Holiday packages </a></li>
-<img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li><a href="#" style="color:#808080";>Passport and Visa Assistance</a></li>
-<img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li><a href="#" style="color:#808080";>Travel Insurance</a></li>
-<img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li><a href="#" style="color:#808080";>Rail and Bus Tickets</a></li>
+<img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li><a href="Default.aspx" style="color:#808080";>Domestic and International Air Ticketing</a></li>
+<img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li><a href="HolidaySpot.aspx" style="color:#808080";>Holiday packages </a></li>
+<img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li><a href="VisitUSA.aspx" style="color:#808080";>Passport and Visa Assistance</a></li>
+<img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li><a href="travelinsurence.aspx" style="color:#808080";>Travel Insurance</a></li>
+<img alt="Indus Image" src="images/dot.jpg"  style="margin-left:-12px;  float:left; position:relative; top:8px;"/><li><a href="Default.aspx" style="color:#808080";>Rail and Bus Tickets</a></li>
 
 </div><!--box4-->
 <%--<div class="left_stock">
@@ -119,7 +119,7 @@
 
 <div class="flash_center">
 
-<asp:Image runat="server" alt="Indus Image" src="images/ou_tour.jpg" style="margin-top:12px" />
+<asp:Image runat="server" alt="Indus Image" src="images/new/ou_tour.jpg" style="margin-top:12px" />
 </div>
 <!--flash _right-->
 <div class="flash_right">
@@ -156,27 +156,26 @@
 <%--<img alt="Indus Image" src="images/tours.jpg" />--%>
 
 <ul style="margin:0px;">
-<a href="#">
-</a><li style="float:left; border:3px solid #585858; margin:0px; padding:0px; width:307px;"><a href="#">
 
-</a><a href="#">  <asp:ImageButton ID="one" runat="server" ImageUrl="~/industravels/images/BottomStrip/india.png" width="184" height="150" /> </a>
-<a href="#">  <asp:ImageButton ID="one11" runat="server" ImageUrl="~/industravels/images/BottomStrip/bhutan.png" width="194" height="150" style="margin-left:-75px;" />  </a>
+<li style="float:left; border:3px solid #585858; margin:0px; padding:0px; width:307px;">
+<a href="PackageLocation.aspx?loc=India">  <img alt="Indus Image" src="images/BottomStrip/india.png" width="184" height="150" /> </a>
+<a href="PackageLocation.aspx?loc=Bhutan">  <img alt="Indus Image" src="images/BottomStrip/bhutan.png" width="194" height="150" style="margin-left:-75px;" />  </a>
+</li>   
+
+<li style="float:left; border:3px solid #585858; margin-left:7px; padding:0px; width:308px;">
+<a href="PackageLocation.aspx?loc=Australia">  <img alt="Indus Image" src="images/BottomStrip/australia.png" width="197" height="150" />  </a>
+<a href="PackageLocation.aspx?loc=New Zealand">  <img alt="Indus Image" src="images/BottomStrip/newzealand.png" width="184" height="150" style="margin-left:-77px;" />  </a>
 </li>
 
-<li style="float:left; border:3px solid #585858; margin-left:4px; padding:0px; width:308px;">
-<a href="#">  <asp:ImageButton ID="two" runat="server" ImageUrl="~/industravels/images/BottomStrip/australia.png" width="197" height="150" />  </a>
-<a href="#">  <asp:ImageButton ID="two22" runat="server" ImageUrl="~/industravels/images/BottomStrip/newzealand.png" width="184" height="150" style="margin-left:-77px;" />  </a>
-</li>
-
-<li style="float:left; border:3px solid #585858; margin-left:4px; padding:0px; width:304px;">
-<a href="#"> <asp:ImageButton ID="three" runat="server" ImageUrl="~/industravels/images/BottomStrip/orient.png" width="183" height="150" />  </a>
-<a href="#"> <asp:ImageButton ID="three22" runat="server" ImageUrl="~/industravels/images/BottomStrip/usa.png" width="192" height="150" style="margin-left:-75px;" />  </a>
+<li style="float:left; border:3px solid #585858; margin-left:7px; padding:0px; width:304px;">
+<a href="PackageLocation.aspx?loc=Orient"> <img alt="Indus Image" src="images/BottomStrip/orient.png" width="183" height="150" />  </a>
+<a href="PackageLocation.aspx?loc=USA"> <img alt="Indus Image" src="images/BottomStrip/usa.png" width="192" height="150" style="margin-left:-75px;" />  </a>
 </li>
 
 
-<li style="float:left; border:3px solid #585858; margin-left:4px; padding:0px; width:312px;">
-<a href="#">  <asp:ImageButton ID="four" runat="server" ImageUrl="~/industravels/images/BottomStrip/dubai.png" width="181" height="150" />  </a>
-<a href="#">  <asp:ImageButton ID="four22" runat="server" ImageUrl="~/industravels/images/BottomStrip/dargleeng.png" width="202" height="150" style="margin-left:-75px;" />  </a>
+<li style="float:left; border:3px solid #585858; margin-left:7px; padding:0px; width:312px;">
+<a href="PackageLocation.aspx?loc=Dubai">  <img alt="Indus Image" src="images/BottomStrip/dubai.png" width="181" height="150" />  </a>
+<a href="PackageLocation.aspx?loc=Darjeeling">  <img alt="Indus Image" src="images/BottomStrip/dargleeng.png" width="202" height="150" style="margin-left:-75px;" />  </a>
 </li>
 
 </ul>

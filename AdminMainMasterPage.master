@@ -9,6 +9,10 @@
 <link rel="stylesheet" type="text/css" href="Css/stylesheet.css"/>
 <link href="Css/Style.css" rel="stylesheet" type="text/css" media="all" />
     <title>: : Admin Control : :</title>
+    <style type="text/css">
+    .tdsal{height:20px;border-right:#3b4f52 solid 1px;}
+    .act{color:#0C8AF5; font-weight:bold; font-size:14px;}
+    </style>
     <asp:ContentPlaceHolder id="head" runat="server"> </asp:ContentPlaceHolder>
 </head>
 <body >  <form id="form1" runat="server">
@@ -44,57 +48,60 @@
           <table border="0" width="100%"><tr>
                        <%-- <td width="80" height="20" align="center" valign="middle" >&nbsp;</td>
      <td id="td1" runat="server" width="100" height="20" align="center" valign="middle" >&nbsp;</td>--%>
-      <td id="tdhome" runat="server" height="20" align="center" valign="middle" style="border-right:#3b4f52 solid 1px;">
+      <td id="tdhome" runat="server"  align="center" valign="middle" class="tdsal">
           <asp:LinkButton ID="lnkhome" runat="server" onclick="lnkhome_Click" CausesValidation="false" class="nav_top">Home</asp:LinkButton></td>
-       <td id="td2" runat="server"  height="20" align="center" valign="middle" style="border-right:#3b4f52 solid 1px;">
-            <asp:LinkButton ID="LinkButton2" runat="server" CausesValidation="false"  class="nav_top">
-             E-Ticket Confirmation</asp:LinkButton></td>
-       <td id="td3" runat="server"  height="20" align="center" valign="middle" style="border-right:#3b4f52 solid 1px;">
-        <asp:LinkButton ID="LinkButton3" runat="server" CausesValidation="false"  class="nav_top">
-        ARP Sheets</asp:LinkButton></td>
-          <td id="td4" runat="server" height="20" align="center" valign="middle" style="border-right:#3b4f52 solid 1px;" colspan="2">
-          <asp:LinkButton ID="LinkButton4" runat="server" CausesValidation="false"  class="nav_top">
-       Passenger Documents</asp:LinkButton></td>
-        <td id="td5" runat="server" height="20" align="center" valign="middle" style="border-right:#3b4f52 solid 1px;">
-    <asp:LinkButton ID="LinkButton5" runat="server" CausesValidation="false"  class="nav_top">
-         Credit Card Form </asp:LinkButton></td>
-      <td id="td6" runat="server"  height="20" align="center" valign="middle" >
-       <asp:LinkButton ID="LinkButton6" runat="server" CausesValidation="false"  class="nav_top">
-         Consolidators Info</asp:LinkButton></td>         
+       <td id="td2" runat="server"  align="center" valign="middle" class="tdsal">
+            <asp:LinkButton ID="lnketicket" runat="server" CausesValidation="false"  class="nav_top"> E-Ticket Confirmation</asp:LinkButton>
+            </td>
+       <td id="td3" runat="server"  align="center" valign="middle" class="tdsal">
+        <asp:LinkButton ID="lnlarp" runat="server" CausesValidation="false"  class="nav_top"> ARP Sheets</asp:LinkButton>
+        </td>
+          <td id="td4" runat="server" align="center" valign="middle" class="tdsal" >
+          <asp:LinkButton ID="lnkpassen" runat="server" CausesValidation="false"  class="nav_top">  Passenger Documents</asp:LinkButton>
+          </td>
+        <td id="td5" runat="server" align="center" valign="middle" class="tdsal">
+    <asp:LinkButton ID="lnkcredit" runat="server" CausesValidation="false"  class="nav_top"> Credit Card Form </asp:LinkButton>
+    </td>
+      <td id="td6" runat="server"  align="center" valign="middle" class="tdsal">
+       <asp:LinkButton ID="lnkconsal" runat="server" CausesValidation="false"  class="nav_top">Consolidators Info</asp:LinkButton>
+       </td>    
+          <td id="td8" runat="server"  align="center" valign="middle" height="20" colspan="2">
+       <asp:LinkButton ID="lnkquote" runat="server" CausesValidation="false"  class="nav_top">  Quote Files</asp:LinkButton>
+       </td>      
              </tr>                      
              <tr>
-             <td colspan="7">
+             <td colspan="8">
              <hr />
              </td>
              </tr>
             <%-- </table>   
               <table width="100%">--%>
              <tr>             
-             <td id="td7" runat="server" height="20" align="center" valign="middle" style="border-right:#3b4f52 solid 1px;">
-       <asp:LinkButton ID="LinkButton7" runat="server" CausesValidation="false"  class="nav_top">
+             <td id="td7" runat="server" align="center" valign="middle" class="tdsal">
+       <asp:LinkButton ID="lnkbankac" runat="server" CausesValidation="false"  class="nav_top">
           Bank Accounts</asp:LinkButton></td>
-                 <td id="td9" runat="server"  height="20" align="center" valign="middle" style="border-right:#3b4f52 solid 1px;">
-           <asp:LinkButton ID="LinkButton9" runat="server" CausesValidation="false"  class="nav_top">
-              Cancellation</asp:LinkButton></td>  
-              <td id="td8" runat="server"  height="20" align="center" valign="middle" 
-    style="border-right:#3b4f52 solid 1px;">
-       <asp:LinkButton ID="LinkButton8" runat="server" CausesValidation="false" 
-            class="nav_top">
-         Quote Files</asp:LinkButton></td>            
-     <td id="tdPostPackages" runat="server"  height="20" align="center" valign="middle" style="border-right:#3b4f52 solid 1px;">
+                 <td id="td9" runat="server"  align="center" valign="middle" class="tdsal">
+           <asp:LinkButton ID="lnkcancel" runat="server" CausesValidation="false"  class="nav_top">
+              Cancellation</asp:LinkButton></td>
+              <td id="td1" runat="server"  align="center" valign="middle" class="tdsal">
+       <asp:LinkButton ID="lnkInvoice" runat="server" CausesValidation="false"  class="nav_top" OnClick="lnkInvoice_Click"> Invoice</asp:LinkButton>
+       </td>    
+                        <td id="tdUsers" runat="server" align="center" valign="middle" class="tdsal">
+           <asp:LinkButton ID="lnkUsers" runat="server" onclick="lnkusers_Click" CausesValidation="false" class="nav_top">Users</asp:LinkButton></td>
+     <td id="tdPostPackages" runat="server"  align="center" valign="middle" class="tdsal">
    <asp:LinkButton ID="lnkSpecialPackages" runat="server" CausesValidation="false" onclick="lnkSpecialPackages_Click" class="nav_top">
       Packages</asp:LinkButton></td>
-            <td id="tdUsers" runat="server"  height="20" align="center" valign="middle" 
-         style="border-right:#3b4f52 solid 1px;">         
-           <asp:LinkButton ID="lnkUsers" runat="server" onclick="lnkusers_Click" CausesValidation="false" class="nav_top">Users</asp:LinkButton></td>
+           
                <%--         <td id="tdplans" runat="server" width="100" height="20" align="center" valign="middle" style="border-right:#3b4f52 solid 1px;"><asp:LinkButton ID="lnkplans" runat="server" CausesValidation="false" onclick="lnkplans_Click" class="nav_top">Plans</asp:LinkButton></td>
                         <td id="tdTemplates" runat="server" width="100" height="20" align="center" valign="middle" style="border-right:#3b4f52 solid 1px;"><asp:LinkButton ID="lnkTemplates" runat="server" CausesValidation="false" onclick="lnkTemplates_Click" class="nav_top">Templates</asp:LinkButton></td>--%>
                         <%--<td id="tdcontact" runat="server" width="160" height="20" align="center" valign="middle" style="border-right:#3b4f52 solid 1px;"><asp:LinkButton ID="lnkcontact" runat="server" CausesValidation="false" onclick="lnkcontact_Click" class="nav_top">ContactUs Details</asp:LinkButton></td>--%>
 
    <%-- <td id="tdaccount" runat="server"  height="20" align="center" valign="middle" style="border-right:#3b4f52 solid 1px;"><asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="false" onclick="myaccount_Click" class="nav_top">Account</asp:LinkButton></td>--%>
-                      <td id="tdFeedback" runat="server"  height="20" align="center" valign="middle"
-                       style="border-right:#3b4f52 solid 1px;">
-                       <asp:LinkButton ID="LinkButtons1" runat="server" CausesValidation="false" onclick="lnklfeedback_Click"  class="nav_top">Feedback</asp:LinkButton></td>
+                       <td id="td18" runat="server"  align="center" valign="middle" class="tdsal">
+       <asp:LinkButton ID="lnkCareers" runat="server" CausesValidation="false"  class="nav_top" OnClick="lnkCareers_Click"> Careers</asp:LinkButton>
+       </td>  
+                      <td id="tdFeedback" runat="server"  align="center" valign="middle" class="tdsal">
+                       <asp:LinkButton ID="lnkfeed" runat="server" CausesValidation="false" onclick="lnklfeedback_Click"  class="nav_top">Feedback</asp:LinkButton></td>
       <td id="tdlogout" runat="server"  height="20" align="center" valign="middle" ><asp:LinkButton ID="lnkLogout" runat="server" onclick="lnklogout_Click" CausesValidation="false" class="nav_top">Log Off</asp:LinkButton></td>
    
              </tr>
@@ -105,7 +112,7 @@
           <tr><td align="left">&nbsp;</td></tr>
           
           <tr>
-            <td  align="center" valign="middle" ><img src="../images/travels6.png" width="1243" height="244" /></td>
+            <td  align="center" valign="middle" ><img src="../images/travels6.png" width="1243" height="244" alt="Travels Admin" /></td>
           </tr>
           </table>
         </td>

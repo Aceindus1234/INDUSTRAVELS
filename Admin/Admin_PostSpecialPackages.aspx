@@ -244,7 +244,7 @@
    
       <tr align="right"> 
           <td width="1243" align="right" style="padding-right:10px;padding-top:10px;">
-              <asp:ImageButton ID="imgbtnBack" runat="server" ImageUrl="~/images/buttons1/Back.png" Width="57px" Height="23px" PostBackUrl="Admin_SpecialPackageDetails.aspx"/>
+              <asp:ImageButton ID="imgbtnBack" runat="server" ImageUrl="images/buttons1/Back.png" Width="57px" Height="23px" PostBackUrl="Admin_SpecialPackageDetails.aspx"/>
       </td></tr>
         <asp:Panel ID="PnlPackageDetails" runat="server" DefaultButton="BtnPackageDetails">
     <tr >

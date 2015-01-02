@@ -12,15 +12,20 @@ public partial class industravels_Admin_Admin_SpecialOffers : System.Web.UI.Page
     DataSet dsPkgGroups = new DataSet();
     DataSet dsSpecialPackages = new DataSet();
     PackageItinerary objItineraryBal = new PackageItinerary();
+    PackageDAL specialpackagedal = new PackageDAL();
+    int result;
     protected void Page_Load(object sender, EventArgs e)
     {
         if (Session["Admin"] == null)
         {
             Response.Redirect("Default.aspx");
         }
-        if (!IsPostBack)
+        else
         {
-            GetSpecialOffers();
+            if (!IsPostBack)
+            {
+                GetSpecialOffers();
+            }
         }
     }
     protected void GetSpecialOffers()
@@ -70,19 +75,13 @@ public partial class industravels_Admin_Admin_SpecialOffers : System.Web.UI.Page
     }
     protected void DeleteRecord(object sender, CommandEventArgs e)
     {
-        //string Itineraryid = Convert.ToString(e.CommandArgument.ToString());
-        //result = specialpackagedal.DeleteSpecialPackageDetails(Itineraryid);
-        //// result = 1;
-        //if (result == 1 || result == 2 || result == 3)
-        //{
-        //    //GetSpecialPackages();
-        //    //Displaying alert message after successfully deletion of user
-        //    //ScriptManager.RegisterStartupScript(this, this.GetType(), "alertmessage", "javascript:alert('Special Package details deleted successfully')", true);
-        //    //string strscript = "alert('Special Package details deleted successfully');";
-        //    //Page.ClientScript.RegisterStartupScript(this.GetType(), "alertBox", strscript, true);            
-        //    ClientScript.RegisterStartupScript(typeof(Page), "Message", "<script>alert('Special Package details deleted successfully');</script>");
-        //    checkBindingControls();
-        //}
-        //ddlPackageGroups.SelectedIndex = -1;
+        string Itineraryid = Convert.ToString(e.CommandArgument.ToString());
+        result = specialpackagedal.DeleteSpecialoffersDetails(Itineraryid);
+        // result = 1;
+        if (result > 0)
+        {
+            GetSpecialOffers();
+            ClientScript.RegisterStartupScript(typeof(Page), "Message", "<script>alert('Special Package details deleted successfully');</script>");
+        }  
     }
 }

@@ -33,18 +33,18 @@
     </tr>
     <tr>
     <td>
-    <div class="contain_new" style="margin-top:2px;">
+    <div class="contain" style="margin-top:2px;">
     <table width="100%">
     <tr>
     <td valign="top">
      <TraL19:Left ID="TLeft19" runat="server" />  
     </td>
     <td valign="top" class="col">
-    <div class="contain_center_new" style="padding:5px; ">
+    <div class="contain_center_new" style="padding:5px; width:925px; color:#666; line-height:20px;">
 
 				<h2> UK </h2>
                 
-<div class="flag"> <img src="images/UK-Flag.png" width="141" height="104" align="left" /> </div>
+<div class="flag"> <img src="images/UK-Flag.png" width="141" height="104" align="left" alt="uk image" /> </div>
 Country: United   <span class="pink"> Kingdom </span> <br />
                 
 British High Commission <br />
@@ -132,17 +132,17 @@ Time Taken – Minimum 05-25 working DAYS<br />
     <td class="cell5"> 8715  </td>
     <td class="cell6">General visitor  </td>
 </tr>
-<tr id="row2">
+<tr id="row3">
     <td> Longer-term (valid for up to 2 years) </td>
     <td> 31500 </td>
     <td> General visitor  </td>
 </tr>
-<tr id="row2">
+<tr id="row4">
     <td> Longer-term (valid for up to 5 years)  </td>
     <td> 57120</td>
     <td> General visitor </td>
 </tr>
-<tr id="row2">
+<tr id="row5">
     <td> Longer-term (valid for up to 10 years) </td>
     <td> 77385 </td>
     <td> General visitor</td>
@@ -277,7 +277,7 @@ Payable in Mumbai<br />
 					</div>  
     </div>--%>
     </td>
-    <td valign="top" style="float:right; padding-left:14px; padding-top:5px;">
+    <td valign="top" >
      <TraR19:Right ID="TRight19" runat="server" />
     </td>
     </tr>

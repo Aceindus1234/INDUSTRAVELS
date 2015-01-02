@@ -10,13 +10,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">    
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>::Indus Travels::Visa-Types-USA::</title>
+<title>::Indus Travels::Visa-Types-China::</title>
 <%--<link href="css/bootstrap.min.css" rel="stylesheet">
 --%><link href="css/lightbox.css" rel="stylesheet" type="text/css" />
 <link href="css/hstyle.css" rel="stylesheet" />
 <link href="css/style12.css" type="text/css" rel="stylesheet" />
 <link href="css/style.css" type="text/css" rel="stylesheet" />
 <link href="css/menu.css" rel="stylesheet" type="text/css" />
+<link href="css/visas.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery1-1.4.4.min(1).js"></script>
  <script type="text/javascript" src="js/jquery1-1.8.3(1).js"></script>
 
@@ -41,11 +42,11 @@
     <td valign="top" class="col">
     
     
-    <div class="contain_center_new" style="padding:5px; color:#666; line-height:20px;">
+    <div class="contain_center_new" style="padding:5px; width:925px; color:#666; line-height:20px;">
 
 				<h2> CHINA </h2>
                 
-<div class="flag"> <img src="images/china.png" width="141" height="104" align="left" /> </div>
+<div class="flag"> <img src="images/china.png" width="141" height="104" align="left" alt="china image" /> </div>
 Country:  <span class="pink"> China </span> <br />
  
 
@@ -92,9 +93,12 @@ Time Taken – 5 days  <br /> <br />
 <li> 	Passport + all old passports </li>
 <li>	1 Form, <b> (Print Back to back) only Typed from accepted </b>  <b class="bg3">(if we do will charges Rs. 300 extra ) </b> </li>
 <li>	2 Photo, (35 x 45 mm  white background 70 face size photo) </li>
-<li>	Covering letter address to <b> Consulate General of China, Mumbai, with company seal & Applicant Passport details. </b> <b class="bg2"> (Please mention single/double/ Multiple entry in covering letter Its mandatory) </b> <b class="pink">(without this VFS will not accept) </b>  </li>
-<li>	Exhibition / fair ticket or pass copy 
-<li>	Original personal 6 month to till date Bank Statement with minimum balance of Rs 1.6 lacs with bank seal and signature is must. <b class="pink"> (without this VFS will not accept) (if minimum balance is Rs. 60,000 then we can submit the application with request final decision will be taken by consulate) </b> <b class="bg"> (Only required for trade fair and tourism) </b> </li>
+<li>	Covering letter address to <b> Consulate General of China, Mumbai, with company seal & Applicant Passport details. </b>
+ <b class="bg2"> (Please mention single/double/ Multiple entry in covering letter Its mandatory) </b> <b class="pink">(without this VFS will not accept) </b>  </li>
+<li>	Exhibition / fair ticket or pass copy </li>
+<li>	Original personal 6 month to till date Bank Statement with minimum balance of Rs 1.6 lacs with bank seal and signature is must. <b class="pink">
+ (without this VFS will not accept) (if minimum balance is Rs. 60,000 then we can submit the application with request final decision will be taken by consulate) </b> 
+ <b class="bg"> (Only required for trade fair and tourism) </b> </li>
 <li>	Return Confirmed  ticket  with Airline stamp    </li>
 <li>	Hotel Confirmation from China on hotel letterhead with hotel seal and signature for conference <b class="bg">(Only required for trade fair and tourism) </b> </li>
 <li>	Outstation passports pls submit their Residence any 2 from below list:  </li>
@@ -130,12 +134,13 @@ USA national Fees: 9100<br />
 <li>	Hotel Confirmation from China on hotel letterhead with hotel seal and signature </li>
 <li>	Day to day itinerary mandatory </li>
 <li>	Original personal 6 month to till date Bank Statement with minimum balance of Rs 1.6 lacs with bank seal and signature is must. <b class="pink">(without this VFS will not accept) (if minimum balance is Rs. 60,000 then we can submit the application with request final decision will be taken by consulate) </b> </li>
-<li>	Outstation passports pls submit their Residence any 2 from below list: </li>
+<li>	Outstation passports pls submit their Residence any 2 from below list: 
 
 o	Proof Telephone bill (Period should last month only)/ Electricity Bill (Period should last month only)/  <br />
 o	valid Lease Agreement <br />
 o	Letter from company mentioning address  <br />
 o	Bank statement with home address <br />  <br />
+</li>
 </ul>
 
 <b class="bg">Visa Form Online Charges Rs. 300/- Per pax will be applicable </b> <br /> <br />
@@ -150,7 +155,7 @@ o	Bank statement with home address <br />  <br />
 For USA Passport Time taken: 5 Days <br />
 USA national Fees: 9100<br />
 
-<b> Download Visa Form: </b><a href="#" class="pink">Click Here </a>  <br /> <br />
+<%--<b> Download Visa Form: </b><a href="#" class="pink">Click Here </a>  <br /> <br />--%>
 
 
                           
@@ -159,7 +164,7 @@ USA national Fees: 9100<br />
     
 
     </td>
-    <td valign="top" style="margin-top:0px;>
+    <td valign="top" style="margin-top:0px;">
      <TraR15:Right ID="TRight15" runat="server" />
     </td>
     </tr>

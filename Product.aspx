@@ -16,7 +16,14 @@
 <link href="css/style12.css" type="text/css" rel="stylesheet" />
 <link href="css/style.css" type="text/css" rel="stylesheet" />
 <link href="css/menu.css" rel="stylesheet" type="text/css" />
-
+<style type="text/css">
+.clp{color:#5d5d5d; font-size:12px; font-family:Arial, Helvetica, sans-serif; width:905px;
+text-align:justify; margin:5px 5px 0px 10px; line-height:20px;}
+.h3{color:#C62731}
+.hrl{border:1px solid #CBC6C4;}
+ .h4{text-decoration:underline; color:#4E81B3; padding-left:5px;}
+ .uls{list-style:square;}
+</style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -37,46 +44,45 @@
     </td>
     <td valign="top" class="col">
     <div class="contain_center">
-
-<p style="color:#5d5d5d; font-size:12px; font-family:Arial, Helvetica, sans-serif; width:905px;
-text-align:justify; margin-left:15px; margin-top:5px; line-height:20px;">
+    <h3 class="h3">Products & Services</h3><hr  class="hrl" />
+<p class="clp" >
 Indus Travels Inc is dedicated to making your travel arrangements as convenient as possible. Please come and join us and take advantage of our exceptional travel products and services and discover the joys of hassle-free planning and worry-free traveling. We will try our best to make your trip a memorable one.</p>
 <br />
-<p style="color:#5d5d5d; font-size:12px; font-family:Arial, Helvetica, sans-serif; width:905px;
-text-align:justify; margin-left:15px; margin-top:5px; line-height:20px;">
+<p class="clp" >
 Indus Travels Inc offers comprehensive travel services for various associations, colleges, corporations, meetings, universities and leisure travelers.
 </p>
 <br />
-
-
-<ol>
-<li style="color:#5d5d5d; font-size:12px; font-family:Arial, Helvetica, sans-serif; width:905px;
-text-align:justify; margin-left:15px; margin-top:5px; line-height:20px;">
-Personalized and Individualized Full Travel Services 
+<p class="clp" >
+With a skilled and experienced team of customer service representatives, our team at <b> <a href="Default.aspx">Indus Travels</a> </b> assures you the best of services. Our caring and committed team, are eager to offer seamless travel solutions to our esteemed customer’s world-wide. 
+</p>
+<br />
+<p class="clp" >
+Having a decade of experience in the travel industry and having being served diverse customers globally, we are at a position to easily solve travel related queries of our valued customers. With a team who have got a keen insight on the effective functioning of global air ticketing and other travel related services, we are here to astound you by our services.   
+</p>
+<br />
+&emsp;<h5 class="h4">Our Services Include:</h5>
+<ul class="uls">
+<li class="clp">
+	Air ticketing for all the major airlines (Domestic & International)
 </li>
-<li style="color:#5d5d5d; font-size:12px; font-family:Arial, Helvetica, sans-serif; width:905px;
-text-align:justify; margin-left:15px; margin-top:5px; line-height:20px;">
-Air, Hotel & Car Discount Programs
+<li class="clp">
+	Bus and Train Ticket Booking (Domestic)
 </li>
-<li style="color:#5d5d5d; font-size:12px; font-family:Arial, Helvetica, sans-serif; width:905px;
-text-align:justify; margin-left:15px; margin-top:5px; line-height:20px;">
-Customized Management Reporting
+<li class="clp">
+	Passport and Visa assistance 
 </li>
-<li style="color:#5d5d5d; font-size:12px; font-family:Arial, Helvetica, sans-serif; width:905px;
-text-align:justify; margin-left:15px; margin-top:5px; line-height:20px;">
-Self Booking Tool - Get There (powered by Sabre)
-</li><li style="color:#5d5d5d; font-size:12px; font-family:Arial, Helvetica, sans-serif; width:905px;
-text-align:justify; margin-left:15px; margin-top:5px; line-height:20px;">
-24 Hour Service – Owned and operated by Indus Travels Inc.
+<li class="clp">
+	Hotel Booking (Domestic & International)
+</li><li class="clp">
+	Both domestic and international travel packages, which include student, holiday, adventure, honeymoon, spiritual sojourn, <br />business packages and finally cruise tours.   
 </li>
-</li><li style="color:#5d5d5d; font-size:12px; font-family:Arial, Helvetica, sans-serif; width:905px;
-text-align:justify; margin-left:15px; margin-top:5px; line-height:20px;">
-Customized Travel Packages - Incentive Trips, Meetings, Educational programs, NGO travel arrangements.
+<li class="clp">
+	Cruises at attractive rates. 
 </li>
-</li><li style="color:#5d5d5d; font-size:12px; font-family:Arial, Helvetica, sans-serif; width:905px;
-text-align:justify; margin-left:15px; margin-top:5px; line-height:20px;">
+<li class="clp">
 Travel Insurance with different options based on your requirements.
-</li> </ol>
+</li>
+ </ul>
 
 
 </div>

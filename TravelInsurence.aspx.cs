@@ -12,7 +12,7 @@ using System.Configuration;
 public partial class industravels_TravelInsurence : System.Web.UI.Page
 {
 
-    SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["cnn"].ConnectionString);
+    //SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["cnn"].ConnectionString);
     protected void Page_Load(object sender, EventArgs e)
     {
 
@@ -60,26 +60,34 @@ public partial class industravels_TravelInsurence : System.Web.UI.Page
             objinsprop.Traveller61 = ddltraveler6.SelectedValue;
             objinsprop.EmailId1 = txtemailid.Text;
             objinsprop.PhoneNo1 = txtcontact.Text;
+            if (rdInsType.SelectedIndex == 0)
+                objinsprop.Instype = "International";
+            else
+                objinsprop.Instype = "Student";
             insurenceBAL objbal = new insurenceBAL();
-            output = objbal.insertinsurencedetails(objinsprop);
-           
-            ClientScript.RegisterStartupScript(typeof(Page), "Message", "<script>alert('ThanQ For Giving Ur Details !!!');</script>");
-            
-            rdbl1.SelectedItem.Text = string.Empty;
-            ddlsuminsured.SelectedIndex = -1;
-            txtdepadate.Text = string.Empty;
-            txtreturndate.Text = string.Empty;
-            txtnotraveldays.Text = string.Empty;
-            ddltravelersno.Text = string.Empty;
-            ddltrveler1.SelectedIndex = -1;
-            ddltraveler2.SelectedIndex = -1;
-            ddltraveler3.SelectedIndex = -1;
-            ddltraveler4.SelectedIndex = -1;
-            ddltraveler5.SelectedIndex = -1;
-            ddltraveler6.SelectedIndex = -1;
-            txtemailid.Text = string.Empty;
-            txtcontact.Text = string.Empty;
-            ckbaccepet.Checked = false;
+           int Oput = objbal.insertinsurencedetails(objinsprop);
+           if (Oput > 0)
+           {
+               ClientScript.RegisterStartupScript(typeof(Page), "Message", "<script>alert('ThanQ For Giving Ur Details !!!');</script>");
+
+               //rdbl1.SelectedItem.Value = 0;
+               ddlsuminsured.SelectedIndex = -1;
+               txtdepadate.Text = string.Empty;
+               txtreturndate.Text = string.Empty;
+               txtnotraveldays.Text = string.Empty;
+               ddltravelersno.Text = string.Empty;
+               ddltrveler1.SelectedIndex = -1;
+               ddltraveler2.SelectedIndex = -1;
+               ddltraveler3.SelectedIndex = -1;
+               ddltraveler4.SelectedIndex = -1;
+               ddltraveler5.SelectedIndex = -1;
+               ddltraveler6.SelectedIndex = -1;
+               txtemailid.Text = string.Empty;
+               txtcontact.Text = string.Empty;
+               ckbaccepet.Checked = false;
+           }
+           else
+           { ClientScript.RegisterStartupScript(typeof(Page), "Message", "<script>alert('Unknown exception raised, please try again !!!');</script>"); }
             #region old
             //        con.Open();
             //        string sqlstr = "insert into TravelInsurence(Country, Suminsured , Departuredate , Returndate , Noofdaystravelling , NoofTravellers ,Traveller1 , Traveller2 , Traveller3 ,Traveller4 ,Traveller5 ,Traveller6 , EmailId , PhoneNo ) values (@Country,@Suminsured , @Departuredate , @Returndate , @Noofdaystravelling , @NoofTravellers ,@Traveller1 , @Traveller2 , @Traveller3 ,@Traveller4 ,@Traveller5 ,@Traveller6 , @EmailId , @PhoneNo)";

@@ -182,16 +182,16 @@
          <td width="10" align="center"><b>:</b></td>
     <td align="left">
            <asp:TextBox ID="txtTerms" TextMode="MultiLine" runat="server" CssClass="mtbox" ></asp:TextBox>
-          <%-- <asp:RequiredFieldValidator ID="rfvDesc2" runat="server" ValidationGroup="offer" ControlToValidate="txtTerms" ErrorMessage="Please enter itinerary overview"
-            ForeColor="Red"></asp:RequiredFieldValidator>--%>
+         <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ValidationGroup="offer" ControlToValidate="txtTerms"  ForeColor="Red">*</asp:RequiredFieldValidator>
     </td>
    </tr>    
-     <tr>
+     <tr id="uploadtr" runat="server">
     <td align="right">Upload Special Offer Image</td>
     <td width="10" align="center"><b>:</b></td>
     <td align="left">
     <asp:FileUpload ID="upload1" runat="server" Width="300" />
-     <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ValidationGroup="offer" ControlToValidate="upload1"  ForeColor="Red">*</asp:RequiredFieldValidator>
+     <%--<asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ValidationGroup="offer" ControlToValidate="upload1"  ForeColor="Red">*</asp:RequiredFieldValidator>--%>
+     <span style="font-size:8pt;"> image size should be 850(w) and 250(h)</span>
     </td>
     </tr>
     <tr>

@@ -18,7 +18,9 @@
 <link href="css/menu.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery1-1.4.4.min(1).js"></script>
  <script type="text/javascript" src="js/jquery1-1.8.3(1).js"></script>
-
+ <style type="text/css">
+ .hrl{border:1px solid #C1C4C5;}
+ </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -39,9 +41,9 @@
     </td>
     <td valign="top" class="col">
    <div class="contain_center" >
-   <h2 style="padding:5px; color:Gray"> INDUS TRAVELS TERMS AND CONDITIONS: </h2>
-                
-<span style="color:#09F; padding-left:8px"> Welcome to Indus travels and tours! </span>
+   <h4 style="padding:5px; color:Gray"> INDUS TRAVELS TERMS AND CONDITIONS: </h4>
+                <hr class="hrl" /><br />
+<span style="color:#09F; padding:5px 0px 0px 8px;"> Welcome to Indus travels and tours! </span>
 <br /><p class="para">
 We encourage you to read the terms and conditions carefully as it can only strengthen our relationship. Ultimately we want to maintain cordial relations with you. In this write-up Indus travels and tours is referred to as “we”, “our”, “ours” and “us”. The client that is you will be referred to as “you”, “yours”, “their” and “them”. 
 </p><br />

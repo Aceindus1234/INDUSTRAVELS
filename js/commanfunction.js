@@ -30,6 +30,7 @@ function emailformat(txtbox) {
         }
         else {
             alert('Invalid Email Address');
+            $(txtbox).val('');
             return false;
         }
     });

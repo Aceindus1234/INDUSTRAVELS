@@ -19,12 +19,13 @@
 <script type="text/javascript" src="js/jquery1-1.4.4.min(1).js"></script>
  <script type="text/javascript" src="js/jquery1-1.8.3(1).js"></script>
 
-<style>
+<style type="text/css">
 select
 {
 	border:1px solid gray;
 	
 }
+.hrl{border:1px solid #CBC6C4;}
 input
 {
 	border:1px solid gray;
@@ -54,7 +55,7 @@ input
    <div class="contain_center" >    
 <h1 style="color:#5d5d5d; font-size:16px; font-family:Arial, Helvetica, sans-serif; width:905px; margin-bottom:8px;
 text-align:justify; margin-left:15px; margin-top:5px;" >Weight Converter :</h1>
-
+<hr class="hrl" />
 <h5 style="color:#5d5d5d; font-size:14px; font-family:Arial, Helvetica, sans-serif; width:905px; margin-bottom:8px;
 text-align:justify; margin-left:15px; margin-top:5px;">About this Converter</h5>
             <p class="para">This online conversion calculator will convert among different units of weight or mass. For more specific calculations

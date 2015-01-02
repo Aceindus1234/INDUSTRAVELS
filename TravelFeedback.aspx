@@ -136,9 +136,8 @@ color:#900;
      <TraL3:Left ID="TLeft311" runat="server" />  
     </td>
     <td valign="top" class="col">
-    <div class="contain_center" >
-    
-<div style="float:left; padding-left:10px; width:360px; height:500px; ">
+   
+<div style="float:left; padding-left:10px; width:350px; height:500px; ">
 <asp:Image ImageUrl="~/industravels/images/feedback1.png" Width="322" Height="307" CssClass="margin" runat="server" />
 </div>
 
@@ -291,7 +290,7 @@ color:#900;
         <asp:RegularExpressionValidator ID="RegularExpressionValidator2"
     ControlToValidate="txttelno" ErrorMessage="" ValidationExpression="\d{10}" runat="server" ValidationGroup="vg1"/>        </td>
         <%--<asp:FilteredTextBoxExtender ID="fitlter1" runat="server" TargetControlID="txttelno" ValidChars="0123456789" FilterMode="ValidChars" ></asp:FilteredTextBoxExtender>--%>
-      </td>
+   
       </tr>
      <%-- <tr>
         <td>&nbsp;</td>
@@ -408,14 +407,11 @@ color:#900;
   <tr><td>&nbsp;</td></tr>
 </tbody></table>
 </td>
-  </tr>
+</tr>
 </tbody>
-
 </table>
-
 </div>
 
-</div>
     </td>
     <td>
      <TraR3:Right ID="TRight311" runat="server" />

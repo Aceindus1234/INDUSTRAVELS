@@ -3,7 +3,7 @@
 
 .contain_center_new{
 	float:left;
-	width:100%;
+	width:925px;
 	/*height:1780px;*/
 	background-color:#fafafa;
 	border:solid 1px #8f8f8f;
@@ -26,7 +26,7 @@ font-size:16px; margin-top:10px; }
 .contain_center_new ul li{ text-decoration:none;}
 .contain_center_new ul { text-decoration:none; list-style:outside}
 
-.contain_center_new p{ padding:10px; width:900px; height:60px; background:#e8f6ff;
+.contain_center_new p{ padding:10px; width:890px; height:60px; background:#e8f6ff;
 margin-left:8px;
  font:12px/20px Arial, Helvetica, sans-serif;
  border:1px solid #acdfff;}

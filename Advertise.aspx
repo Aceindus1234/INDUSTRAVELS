@@ -80,6 +80,9 @@ width:58%; height:20px; border:#ccc 1px solid;}
   {
   	height:25;
   }
+ 
+ .hrl{border:1px solid #C1C4C5;}
+
 </style>
 </head>
 <body>
@@ -101,7 +104,8 @@ width:58%; height:20px; border:#ccc 1px solid;}
     </td>
     <td valign="top" class="col">
    <div class="contain_center" >
-   <h2 style="padding:5px; color:#0C90D8"> Advertise With Indus Travels And Tours:</h2>
+   <h4 style="padding:5px; color:#0C90D8"> Advertise With Indus Travels And Tours:</h4>
+   <hr class="hrl" />
      <p class="para">
 Indus travels and tours welcome you to join us as an advertising partner.Having a global presence and a strong tie-up with some of the global travel agencies and some leading travel networks, we can help you expand your business in terms of promotion and heighten your business relationships.
    </p> <br /> <p class="para">

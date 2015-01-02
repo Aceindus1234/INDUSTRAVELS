@@ -16,7 +16,7 @@
 <link href="css/style12.css" type="text/css" rel="stylesheet" />
 <link href="css/style.css" type="text/css" rel="stylesheet" />
 <link href="css/menu.css" rel="stylesheet" type="text/css" />
-<link href="css/hstyle.css" rel="stylesheet" type="text/css" />
+<link href="css/visas.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery1-1.4.4.min(1).js"></script>
  <script type="text/javascript" src="js/jquery1-1.8.3(1).js"></script>
  <%--<style type="text/css">
@@ -68,11 +68,11 @@ border-bottom:1px solid #313030;
      <TraL17:Left ID="TLeft17" runat="server" />  
     </td>
     <td valign="top" class="col">
-    <div class="contain_center_new" style="padding:5px; color:#666; line-height:20px; width:850px;">
+    <div class="contain_center_new" style="padding:5px; color:#666; line-height:20px;">
 
 				<h2> SINGAPORE </h2>
                 
-<div class="flag"><img src="images/singapore.png" width="141" height="104" align="left" /> </div>
+<div class="flag"><img src="images/singapore.png" width="141" height="104" align="left" alt="singapore image" /> </div>
 Country:  <span class="pink"> Singapore </span> <br />
  
  
@@ -118,16 +118,16 @@ We can submit- Maharashtra, Goa, Madhya Pradesh, Gujarat, Chhattisgarh, and Oris
 <li> <b>	Outstation passports pls submit their below any two Residence Proof Telephone bill (Period should last month only)/ Electricity Bill (Period should last month only)/ valid Agreement/credit Card statement </b> </li>
 <li> <b> 	If Pax passport and Recent Photo is not matching then consulate is required affidavit from pax. </b>
 
-</li> </ul>  <br /><br />
+</li> </ul>  <br />
  
 Fee Rs.1600/- <br />
 
 
 <b> Time taken: 3 Days </b> <br />
 
-<b> Download Visa form :</b> <a href="#" class="pink">  Click Here </a>  <br />
+<%--<b> Download Visa form :</b> <a href="#" class="pink">  Click Here </a>  <br />
 
-<b> Download Sponsorship Form: </b><a href="#" class="pink">   Click Here </a>   <br /> <br />
+<b> Download Sponsorship Form: </b><a href="#" class="pink">   Click Here </a>   <br /> <br />--%>
 
 
 

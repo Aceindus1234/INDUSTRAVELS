@@ -9,7 +9,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">    
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>::Indus Travels::Visa-Types-India::</title>
+<title>::Indus Travels::Search-Package-By-Location::</title>
 <%--<link href="css/bootstrap.min.css" rel="stylesheet">
 --%><link href="css/lightbox.css" rel="stylesheet" type="text/css" />
 <link href="css/hstyle.css" rel="stylesheet" />

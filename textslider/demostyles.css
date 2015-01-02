@@ -1,0 +1,77 @@
+
+body div > ul {
+	margin: 0;
+	padding: 0;
+/*	border-bottom: 1px solid #666;
+*/	overflow: hidden;
+}
+.right_box ul li {
+	list-style: none;
+	float: left;
+	margin-right:3px;
+}
+.right_box ul li.controls {
+    float: right;
+}
+.right_box ul li a {
+	font-weight: bold;
+	display: inline-block;
+	padding: 6px 12px;
+	color: #888;
+	outline: 0;
+	text-decoration: none;
+	background: #f3f3f3;
+	background: -webkit-gradient(linear,0 0,0 bottom,from(#eee),to(#e4e4e4));
+	background: -moz-linear-gradient(#eee,#e4e4e4);
+	background: linear-gradient(#eee,#e4e4e4);
+	-pie-background: linear-gradient(#eee,#e4e4e4);
+}
+
+.right_box ul li a.current {
+	color: white;
+	background: #666;
+	background: -webkit-gradient(linear,0 0,0 bottom,from(#888),to(#666));
+	background: -moz-linear-gradient(#888,#666);
+	background: linear-gradient(#888,#666);
+	-pie-background: linear-gradient(#888,#666);
+}
+div.tabscontent > div {
+	padding: 0 15px;  	border: 1px solid #e3e3e3; 
+	-webkit-border-radius:3px;
+		-ms-border-radius:3px;
+		-moz-border-radius:3px;
+border-radius:3px;
+}
+div.controls {
+	float: right; 
+}
+div.controls a {
+	margin-left: 5px;
+}
+.lorem {
+	font-style:normal;
+}
+
+
+
+.left_box ul{
+	list-style: none;
+   text-align:justify; margin:0px; padding:0px;
+}
+
+
+.left_box ul li {
+	list-style: none;
+	text-align:justify; margin:0px;  padding:8px;
+}
+
+.left_box ul li a {
+	color: #0d327a;
+	text-decoration: none;
+}
+
+.left_box ul li a:hover {
+	color:#666;  text-decoration:underline;
+}
+
+

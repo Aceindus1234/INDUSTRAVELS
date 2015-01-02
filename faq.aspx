@@ -16,11 +16,12 @@
 <link href="css/style12.css" type="text/css" rel="stylesheet" />
 <link href="css/style.css" type="text/css" rel="stylesheet" />
 <link href="css/menu.css" rel="stylesheet" type="text/css" />
-<style>
+<style type="text/css">
 .node-title
 {
 	color:Gray;
 }
+.hrl{border:1px solid #C1C4C5;}
 </style>
 </head>
 <body>
@@ -42,13 +43,13 @@
     </td>
     <td valign="top" class="col">
     <div class="contain_center" >
+    <h4 class="node-title">                
+                  About Intrepid Events              
+              </h4>
+              <hr class="hrl" />
    <div style="color:#5d5d5d; width:98.5%; padding: 0px 10px 0px 10px;  font-family:Arial, Helvetica, sans-serif;
 text-align:justify; height:615px; overflow-y:scroll;" > 
-<h2 class="node-title">
-                
-                  About Intrepid Events
-              
-              </h2>
+
       <h4>
 	Financial security</h4>
 <div>

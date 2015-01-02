@@ -22,12 +22,12 @@
  <script type="text/javascript" src="js/jquery1-1.8.3(1).js"></script>
  <style type="text/css">
 .package_imgwrapper{width:275px;}
-ul{margin:5px 0 0 0px; width:250px; font-size:85%}
+ul.theme_list{margin:23px 0 0 0px; width:250px; font-size:85%}
 .listing_section .left_part{width:750px;}
 .package_details_listing{width:450px;}
 .listing_section .right_part{width:145px}
 .duration_details{width:190px}
-ul.aminities_list li{width:70px;margin:0px 6px 6px 0px}
+ul.aminities_list li{width:68px;margin:0px 6px 6px 0px}
 ul.theme_list li{width:80px; margin:0 0px 5px 0;}
 .secondary_button_top,.drop-menu,.modify_tabs,.left_package_text,.hld_view_image,.hld_view_detail{display:none;}
 hr{margin:14px 0px 0px 0px; width:90%; padding:0px 0px 0px 0px; }

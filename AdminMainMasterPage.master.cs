@@ -11,6 +11,7 @@ using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
 using System.Xml.Linq;
 using System.Data.SqlClient;
+using System.IO;
 
 public partial class AdminMainMasterPage : System.Web.UI.MasterPage
 {
@@ -44,7 +45,8 @@ public partial class AdminMainMasterPage : System.Web.UI.MasterPage
         }
         if (!IsPostBack)
         {
-            getcount();
+           // getcount();
+            selectTab();
         }
     }
     protected void getcount()
@@ -54,6 +56,49 @@ public partial class AdminMainMasterPage : System.Web.UI.MasterPage
         //DataSet ds = new DataSet();
         //da.Fill(ds);
         //lblcount.Text = ds.Tables[0].Rows[0]["count"].ToString();
+    }
+    protected void selectTab()
+    {
+        string s = Path.GetFileName(HttpContext.Current.Request.Url.AbsolutePath.ToString());
+        switch (s)
+        {
+            case "Admin_Homepage.aspx": lnkhome.Attributes.Add("class", "act");
+                break;
+            //case "eticket.aspx": lnketicket.Attributes.Add("class", "act");
+            //    break;
+            //case "arpsheet.aspx": lnlarp.Attributes.Add("class", "act");
+            //    break;
+            //case "passenger.aspx": lnkpassen.Attributes.Add("class", "act");
+            //    break;
+            //case "credit.aspx": lnkcredit.Attributes.Add("class", "act");
+            //    break;
+          
+            //case "consolidate.aspx": lnkconsal.Attributes.Add("class", "act");
+            //    break;
+            //case "quotefiles.aspx": lnkquote.Attributes.Add("class", "act");
+            //    break;
+            //case "bankaccount.aspx": lnkbankac.Attributes.Add("class", "act");
+            //    break;
+            //case "ticketcancel.aspx": lnkcancel.Attributes.Add("class", "act");
+            //    break;
+            case "Admin_PackageItinerary.aspx":
+            case "Admin_PostSpecial_Offers.aspx":
+            case "Admin_PostSpecialPackages.aspx":
+            case "Admin_SpecialOffers.aspx":
+            case "Admin_SpecialPackageDetails.aspx":
+            case "Admin_ToPostPackages.aspx":
+                lnkSpecialPackages.Attributes.Add("class", "act");
+                break;
+            case "Admin_CustomerPackageDetails.aspx":
+            case "Admin_CustomerTravelDetails.aspx":           
+            case "Admin_CustomerDetails.aspx": lnkUsers.Attributes.Add("class", "act");
+                break;
+            case "Admin_CareerJobs.aspx":            
+            case "Admin_PostCareersJob.aspx": lnkCareers.Attributes.Add("class", "act");
+                break;
+            case "Admin_Feedback.aspx": lnkfeed.Attributes.Add("class", "act");
+                break;
+        }
     }
     protected void logo_click(object sender, EventArgs e)
     {
@@ -106,5 +151,13 @@ public partial class AdminMainMasterPage : System.Web.UI.MasterPage
     protected void lnkSpecialPackages_Click(object sender, EventArgs e)
     {
         Response.Redirect("Admin_SpecialPackageDetails.aspx");
+    }
+    protected void lnkCareers_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("Admin_CareerJobs.aspx");
+    }
+    protected void lnkInvoice_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("Admin_EnquiryForm.aspx");
     }
 }

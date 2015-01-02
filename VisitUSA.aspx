@@ -17,6 +17,7 @@
 <link href="css/style12.css" type="text/css" rel="stylesheet" />
 <link href="css/style.css" type="text/css" rel="stylesheet" />
 <link href="css/menu.css" rel="stylesheet" type="text/css" />
+<link href="css/visas.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery1-1.4.4.min(1).js"></script>
  <script type="text/javascript" src="js/jquery1-1.8.3(1).js"></script>
 
@@ -40,12 +41,11 @@
     </td>
     <td valign="top" class="col">
     
-    
     <div class="contain_center_new" style="padding:5px; color:#666; line-height:20px;">
 
 				<h2> USA </h2>
                 
-<div class="flag"> <img src="images/usa.png" width="141" height="104" align="left" /> </div>
+<div class="flag"> <img src="images/usa.png" width="141" height="104" align="left" alt="usa image" /> </div>
 Country: United <span class="pink">  States </span> <br />
                 
 American Consulate General, Mumbai <br />
@@ -138,13 +138,15 @@ Visa Fees Rs. 9920/-  <br/>
 <span class="pink"> Note:  </span>  Passenger has to take a prior appointment for visa  <br />  
 
 
-<a href="#"> http://www.ustraveldocs.com </a> <br />
+ http://www.ustraveldocs.com  <br />
  
 <span class="pink"> Note: </span> Passenger has to take a prior appointment for visa  <br />
 
                       
                             
 </div>
+    
+    
     
     
 <%--<div class="contain_center" >

@@ -16,6 +16,8 @@
 <link href="css/style12.css" type="text/css" rel="stylesheet" />
 <link href="css/style.css" type="text/css" rel="stylesheet" />
 <link href="css/menu.css" rel="stylesheet" type="text/css" />
+<link href="css/visas.css" rel="stylesheet" type="text/css" />
+
 <script type="text/javascript" src="js/jquery1-1.4.4.min(1).js"></script>
  <script type="text/javascript" src="js/jquery1-1.8.3(1).js"></script>
 
@@ -42,7 +44,7 @@
 
 				<h2> AUSTRALIA </h2>
                 
-<div class="flag"> <img src="images/au.png" width="141" height="104" align="left" /> </div>
+<div class="flag"> <img src="images/au.png" width="141" height="104" align="left" alt="australia image" /> </div>
 Country:  <span class="pink"> Australia </span> <br />
  
  

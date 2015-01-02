@@ -16,39 +16,9 @@
 <link href="css/style12.css" type="text/css" rel="stylesheet" />
 <link href="css/style.css" type="text/css" rel="stylesheet" />
 <link href="css/menu.css" rel="stylesheet" type="text/css" />
+<link href="css/visas.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery1-1.4.4.min(1).js"></script>
  <script type="text/javascript" src="js/jquery1-1.8.3(1).js"></script>
- <style type="text/css">
- p
- {
- 	font-size:14px;
- 
- 	color:Black;
- 	font-family:Times New Roman;
- 
- 	
- 	}
- 	/*hr{
-
-height:1px;
-
-background:#717171;
-
-border-bottom:1px solid #313030;
-
-}*/
-.side
-{
-	font-family:Times New Roman;
-	font-size:15px;
-	font-stretch:inherit;
-	font-weight:bold;
-	
-	}
-	
- 
- </style>
-
 </head>
 <body>
     <form id="form1" runat="server">
@@ -61,7 +31,7 @@ border-bottom:1px solid #313030;
     </tr>
     <tr>
     <td>
-    <div class="contain" style="margin-top:-8px;" >
+    <div class="contain" style="margin-top:2px;" >
     <table width="100%">
     <tr>
     <td valign="top">
@@ -72,7 +42,7 @@ border-bottom:1px solid #313030;
 
 				<h2> UAE </h2>
                 
-<div class="flag"> <img src="images/uae.png" width="141" height="104" align="left" /> </div>
+<div class="flag"> <img src="images/uae.png" width="141" height="104" align="left" alt="uae image" /> </div>
 Country: United <span class="pink"> Arab Emirates </span> <br />
  
 <span class="italic">   Dubai Visa & Marhaba Services </span> <br />
@@ -97,7 +67,7 @@ UK/USA/Schengen/ Australia/ New Zealand/Russia/Japan/Canada) </span> </li>
 	<li> Holds Long Term Investment aggregating Rs. 5 Lakh, Helds for at least for Last 12 Months. </li>
 	<li> Return confirmed Ticket. </li>
    <li> Leave letter from company </li>
-	<li> <span class="pink"> Travel Insurance if above 60 is must </span> </li> </ul>
+	<li> Travel Insurance if above 60 is must </li> </ul>
     <br />
     
 
@@ -120,39 +90,39 @@ UK/USA/Schengen/ Australia/ New Zealand/Russia/Japan/Canada) </span> </li>
 
 <b> Time taken: 3-5 working Days </b> <br /> <br />
 
-<TABLE>
+<table>
 
 <span class="pink"> <b> DVMS: </b> </span>
-<TR id="row1">
-    <TD> <b> Visa Type </b> </TD>
-    <TD> <b> Revised Visa Fee  </b></TD>
-</TR>
-<TR id="row2">
-    <TD> 96 Hrs (Transit Visa) </TD>
-    <TD class="cell5"> INR 4050  </TD>
-</TR>
-<TR id="row2">
-    <TD>30 days (Tourist Visa) </TD>
-    <TD> INR 4850 </TD>
-</TR>
-<TR id="row2">
-    <TD> Priority Transit Visa </TD>
-    <TD>INR 5000/- (No change)</TD>
-</TR>
-<TR id="row2">
-    <TD> Priority Tourist Visa </TD>
-    <TD> INR 6000/-(No change)</TD>
-</TR>
-</TABLE>
+<tr id="row1">
+    <td> <b> Visa Type </b> </td>
+    <td> <b> Revised Visa Fee  </b></td>
+</tr>
+<tr id="row2">
+    <td> 96 Hrs (Transit Visa) </td>
+    <td class="cell5"> INR 4050  </td>
+</tr>
+<tr id="row3">
+    <td>30 days (Tourist Visa) </td>
+    <td> INR 4850 </td>
+</tr>
+<tr id="row3">
+    <td> Priority Transit Visa </td>
+    <td>INR 5000/- (No change)</td>
+</tr>
+<tr id="row4">
+    <td> Priority Tourist Visa </td>
+    <td> INR 6000/-(No change)</td>
+</tr>
+</table>
 
 
 <b> Time Taken: 4-5 working Days </b> <br />
 Immigration is not working on Friday and Saturday. <br />
-Download Emirates form   : <a href="#" class="pink"> Click Here </a> <br />
+<%--Download Emirates form   : <a href="#" class="pink"> Click Here </a> <br />
  
 Download Marahaba Form:  <a href="#" class="pink"> Click Here </a>  <br />
 
-Download Cox & King Form : <a href="#" class="pink">  Click Here </a>  <br />
+Download Cox & King Form : <a href="#" class="pink">  Click Here </a>  <br />--%>
 
                       
                             

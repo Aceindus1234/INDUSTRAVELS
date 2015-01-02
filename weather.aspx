@@ -10,15 +10,15 @@
 <head id="Head1" runat="server">    
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>::Indus Travels::Weather-Report::</title>
-<%--<link href="css/bootstrap.min.css" rel="stylesheet">
---%><link href="css/lightbox.css" rel="stylesheet" type="text/css" />
+<%--<link href="css/bootstrap.min.css" rel="stylesheet">--%>
+<link href="css/lightbox.css" rel="stylesheet" type="text/css" />
 <link href="css/hstyle.css" rel="stylesheet" />
 <link href="css/style12.css" type="text/css" rel="stylesheet" />
 <link href="css/style.css" type="text/css" rel="stylesheet" />
 <link href="css/menu.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery1-1.4.4.min(1).js"></script>
  <script type="text/javascript" src="js/jquery1-1.8.3(1).js"></script>
-<style>
+<style type="text/css">
 #delaymap
 {
 	width:920px;
@@ -67,10 +67,7 @@
      <TraF21:Foot ID="TFoot21" runat="server" />
     </td></tr>
     </table>
-  
-   
     </div>
-    
     </form>
 </body>
 </html>

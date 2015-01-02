@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/industravels/AdminMainMasterPage.master" AutoEventWireup="true" CodeFile="Admin_SpecialOffers.aspx.cs" Inherits="industravels_Admin_Admin_SpecialOffers" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="../AdminMainMasterPage.master" AutoEventWireup="true" CodeFile="Admin_SpecialOffers.aspx.cs" Inherits="industravels_Admin_Admin_SpecialOffers" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <link href="../Css/Stylemodif.css" rel="stylesheet" type="text/css" media="all" />
@@ -68,7 +68,7 @@
                 </asp:TemplateField>
                  <asp:TemplateField HeaderText="Expired On" HeaderStyle-HorizontalAlign="Left" ControlStyle-CssClass="userscontentmid" HeaderStyle-CssClass="headermid">
                      <ItemTemplate>
-                        <%# Eval("Expired_On")%>
+                        <%# Eval("Expired_On", "{0:dd/MM/yyyy}")%>
                     </ItemTemplate>
                 </asp:TemplateField>    
                  <asp:TemplateField HeaderText="View" ShowHeader="False" HeaderStyle-HorizontalAlign="Left" ControlStyle-CssClass="userscontentmid" HeaderStyle-CssClass="headermid">

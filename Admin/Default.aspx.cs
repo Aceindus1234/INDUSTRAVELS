@@ -11,7 +11,7 @@ using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Xml.Linq;
 
-public partial class Admin_Default : System.Web.UI.Page
+public partial class industravels_Admin_Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -61,12 +61,11 @@ public partial class Admin_Default : System.Web.UI.Page
         {
             //Response.Redirect("Admin_Homepage.aspx");
             Response.Redirect("Admin_CustomerDetails.aspx");
-
         }
         else if (Session["Admin"] == null)
         {
             Response.Redirect("Default.aspx");
-        }       
+        }
     }
     protected void lnkusers_Click(object sender, EventArgs e)
     {
@@ -103,10 +102,9 @@ public partial class Admin_Default : System.Web.UI.Page
                 clear();
                 divid.Visible = true;
                 return false;
-               
             }
         }
-        else 
+        else
         {
             if (User == "admin" && Passwd == "Mnhbs@1299")
             {
@@ -131,7 +129,5 @@ public partial class Admin_Default : System.Web.UI.Page
         Password.Text = "";
         rfvcountry.Enabled = false;
         rfvusertype.Enabled = false;
-        
     }
-    
 }

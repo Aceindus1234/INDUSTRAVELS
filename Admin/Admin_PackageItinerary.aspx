@@ -20,7 +20,8 @@
     <ajx:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server" >
                 </ajx:ToolkitScriptManager>
     <table border="0">
-    <tr><td width="1243" colspan="3" align="right" style="padding-right:10px;padding-top:10px;" ><asp:ImageButton ID="imgbtnBack" runat="server" ImageUrl="~/images/buttons1/Back.png" Width="57px" Height="23px" PostBackUrl="Admin_SpecialPackageDetails.aspx"/></td></tr>
+    <tr><td width="1243" colspan="3" align="right" style="padding-right:10px;padding-top:10px;" >
+    <asp:ImageButton ID="imgbtnBack" runat="server" ImageUrl="~/images/buttons1/Back.png" Width="57px" Height="23px" PostBackUrl="Admin_SpecialPackageDetails.aspx"/></td></tr>
     <tr><td align="left" width="300" style="padding-left:20px;">
        <asp:DropDownList ID="ddlPackageGroups" runat="server" width="150px" AutoPostBack="true"
             onselectedindexchanged="ddlPackageGroups_SelectedIndexChanged"></asp:DropDownList></td>

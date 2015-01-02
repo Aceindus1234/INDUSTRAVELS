@@ -41,11 +41,11 @@ hr
 {
 	margin-top:10px;
 }
-.stock1 {
+/*.stock1 {
     position:relative;
     margin-top:145px
-	/*top:1535px;*/
-}
+	
+}*/
 div.selectBox
 			{
 				position:relative;

@@ -10,13 +10,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">    
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>::Indus Travels::Visa-Types-USA::</title>
+<title>::Indus Travels::Visa-Types-Malaysia::</title>
 <%--<link href="css/bootstrap.min.css" rel="stylesheet">
 --%><link href="css/lightbox.css" rel="stylesheet" type="text/css" />
 <link href="css/hstyle.css" rel="stylesheet" />
 <link href="css/style12.css" type="text/css" rel="stylesheet" />
 <link href="css/style.css" type="text/css" rel="stylesheet" />
 <link href="css/menu.css" rel="stylesheet" type="text/css" />
+<link href="css/visas.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery1-1.4.4.min(1).js"></script>
  <script type="text/javascript" src="js/jquery1-1.8.3(1).js"></script>
 
@@ -45,7 +46,7 @@
 
 				<h2> MALAYSIA </h2>
                 
-<div class="flag"> <img src="images/malasiaflag.png" width="141" height="104" align="left" /> </div>
+<div class="flag"> <img src="images/malasiaflag.png" width="141" height="104" align="left" alt="malasia image" /> </div>
 Country:  <span class="pink"> Malaysia </span> <br />
  
  
@@ -68,13 +69,13 @@ Maharashtra, Goa, Gujarat Diu  and  Daman, Madhya Pradesh.<br /> <br />
 <li>	If return ticket from Singapore then Singapore "E-Visa copy" and if pax is traveling by surface then it should be mention in the letter with mentioning mode of travel.  </li>
 <li> <b class="pink2"> 	If pax is traveling first </b> time and passport Pages is blank then there should be one letter from company for service person and for business person attach covering letter from company.  </li>
 <li>	<b class="pink2"> If pax is traveling first time </b> Last 3 month Original bank statement with bank seal or original Passbook  </li>
-<li>	<b> Outstation passports pls submit their Residence any 2 from below list: </li>
+<li>	<b> Outstation passports pls submit their Residence any 2 from below list: </b>
 o	Proof Telephone bill (Period should last month only)/ Electricity Bill (Period should last month only)/  <br/>
 o	valid Lease Agreement  <br/>
 o	Letter from company mentioning address  <br/>
-o	Bank statement </b> <br/>
-
- </li> </ul>
+o	Bank statement  <br/>
+</li>
+</ul>
     <br />
     
 Fee: Rs. 1000/- for Single Entry + 70 dd charges+ 2000 smart data processing fees  
@@ -94,11 +95,12 @@ Time Taken – 5 days  <br /> <br />
 <li>	If return ticket from Singapore then Singapore "E-Visa copy" and if pax is traveling by surface then it should be mention in the letter with mentioning mode of travel.  </li>
 <li> 	<b class="pink2"> If pax is traveling first time </b> and passport Pages is blank then there should be one letter from company for service person and for business person attach covering letter from company.   </li>
 <li> 	<b class="pink2"> 	If pax is traveling first time </b> Last 3 month Original bank statement with bank seal or original Passbook.  </li>
-<li> <b> 	Outstation passports pls submit their Residence any 2 from below list: </li>
+<li> <b> 	Outstation passports pls submit their Residence any 2 from below list:</b>  
 o	Proof Telephone bill (Period should last month only)/ Electricity Bill (Period should last month only)/  <br />
 o	valid Lease Agreement  <br />
 o	Letter from company mentioning address  <br />
-o	Bank statement  </b> <br />
+o	Bank statement  <br />
+</li>
  </ul>  <br />
  
  
@@ -106,7 +108,7 @@ o	Bank statement  </b> <br />
 VFs: 335/- <br />
 Fees by draft only in favor of <b>  “Consulate General of Malaysia, Mumbai </b>  <br />
 Time Taken – 5 days  <br />
-<b> Download Visa Form:  </b><a href="#" class="pink">Click Here </a> <br /> <br />
+<%--<b> Download Visa Form:  </b><a href="#" class="pink">Click Here </a> <br /> <br />--%>
 
 
                           
